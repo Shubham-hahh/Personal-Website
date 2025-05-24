@@ -202,66 +202,75 @@
 
         .main-nav button[data-tooltip]:hover:before {
             opacity: 1;
-        }
-
-        /* Enhanced Responsiveness */
-        @media (max-width: 768px) {
+        }        /* Enhanced Responsiveness */
+        @media (max-width: 1200px) {
             .main-nav {
-                flex-direction: column;
-                gap: 20px;
-                padding: 20px;
+                padding: 32px 28px;
             }
             .main-nav button {
-                font-size: 20px;
-                padding: 16px 40px;
-                min-width: 180px;
-                width: auto;
+                width: 220px;
+                height: 60px;
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .main-nav {
+                padding: 24px;
+                gap: 20px;
+                width: 90%;
+                max-width: 400px;
+            }
+            .main-nav button {
+                width: 100%;
+                height: 56px;
+                font-size: 22px;
             }
             .bottom-bar {
                 flex-direction: column;
                 gap: 10px;
                 padding: 12px;
+                width: 90%;
+                max-width: 300px;
+            }
+            .clock-text {
+                font-size: 16px;
             }
         }
 
         @media (max-width: 480px) {
+            .main-nav {
+                padding: 20px;
+                gap: 16px;
+            }
             .main-nav button {
-                font-size: 16px;
-                padding: 12px 20px;
-                min-width: 140px;
+                height: 50px;
+                font-size: 20px;
+            }
+            .bottom-bar {
+                padding: 10px;
+            }
+            .toggle-btn {
+                font-size: 14px;
+                padding: 6px 12px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .main-nav {
+                padding: 16px;
+                gap: 12px;
+            }
+            .main-nav button {
+                height: 44px;
+                font-size: 18px;
+            }
+            .clock-text {
+                font-size: 14px;
             }
             .bottom-bar {
                 padding: 8px;
-            }
-        }
-
-        @media (max-width: 400px) {
-            .main-nav button {
-                font-size: 16px;
-                padding: 10px 8vw;
-                min-height: 40px;
-                height: 40px;
-                min-width: 100px;
-                width: 70vw;
-            }
-            .bottom-bar {
-                gap: 6px;
-                padding: 8px 6px;
-            }
-        }
-
-        @media (max-width: 320px) {
-            .main-nav button {
-                font-size: 14px;
-                padding: 8px 6vw;
-                min-height: 36px;
-                height: 36px;
-                min-width: 90px;
-                width: 65vw;
-            }
-            .bottom-bar {
-                gap: 4px;
-                padding: 6px 4px;
+                gap: 8px;
             }
         }
 

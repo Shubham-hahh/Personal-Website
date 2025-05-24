@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Marhey&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('background.gif') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Marhey', sans-serif;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Bottom Bar Styles */
+        .bottom-bar {
+            position: fixed;
+            left: 50%;
+            bottom: 20px;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.18);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 18px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+            padding: 8px 18px;
+            z-index: 1000;
+        }
+
+        .clock-text {
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 1px;
+            min-width: 110px;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .toggle-btn, .menu-btn {
+            background: none;
+            border: 2px solid #fff;
+            border-radius: 7px;
+            color: #fff;
+            padding: 4px 12px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            font-family: inherit;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .toggle-btn:hover, .menu-btn:hover {
+            background: rgba(255,255,255,0.25);
+            transform: scale(1.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }        /* Main Navigation Styles */
+        .main-nav {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: auto;
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 28px;
+            background: rgba(255,255,255,0.18);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+            padding: 36px 32px;
+            z-index: 2000;
+            opacity: 0;
+            animation: navFadeIn 0.8s ease-out forwards;
+        }
+
+        .main-nav button {
+            width: 240px;
+            height: 64px;
+            padding: 0;
+            margin: 0;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #fff;
+            border: none;
+            border-radius: 16px;
+            font-size: 26px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes navFadeIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, -45%);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .main-nav button:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.25);
+            border-radius: 100%;
+            transform: translate(-50%, -50%);
+            transition: width 0.4s cubic-bezier(.4,2,.6,1), height 0.4s cubic-bezier(.4,2,.6,1);
+            z-index: 0;
+        }
+
+        .main-nav button:active:after {
+            width: 300px;
+            height: 300px;
+            transition: 0s;
+        }
+
+        .main-nav button span {
+            position: relative;
+            z-index: 1;
+        }        .main-nav button:hover {
+            background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+            transform: scale(1.05);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Bottom bar animation */
+        .bottom-bar {
+            opacity: 0;
+            animation: bottomBarFadeIn 0.8s ease-out 0.3s forwards;
+        }
+        @keyframes bottomBarFadeIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, 20px);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }        /* Tooltip Styles */
+        .main-nav button[data-tooltip] {
+            position: relative;
+        }
+
+        .main-nav button[data-tooltip]:before {
+            content: attr(data-tooltip);
+            position: absolute;
+            top: -45px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.85);
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            white-space: nowrap;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-nav button[data-tooltip]:hover:before {
+            opacity: 1;
+        }
+
+        /* Enhanced Responsiveness */
+        @media (max-width: 768px) {
+            .main-nav {
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+            }
+            .main-nav button {
+                font-size: 20px;
+                padding: 16px 40px;
+                min-width: 180px;
+                width: auto;
+            }
+            .bottom-bar {
+                flex-direction: column;
+                gap: 10px;
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .main-nav button {
+                font-size: 16px;
+                padding: 12px 20px;
+                min-width: 140px;
+            }
+            .bottom-bar {
+                padding: 8px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .main-nav button {
+                font-size: 16px;
+                padding: 10px 8vw;
+                min-height: 40px;
+                height: 40px;
+                min-width: 100px;
+                width: 70vw;
+            }
+            .bottom-bar {
+                gap: 6px;
+                padding: 8px 6px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .main-nav button {
+                font-size: 14px;
+                padding: 8px 6vw;
+                min-height: 36px;
+                height: 36px;
+                min-width: 90px;
+                width: 65vw;
+            }
+            .bottom-bar {
+                gap: 4px;
+                padding: 6px 4px;
+            }
+        }
+
+        /* Accessibility Improvements */
+        .main-nav button {
+            outline: none;
+        }
+        .main-nav button:focus {
+            outline: 3px solid rgba(255,255,255,0.8);
+            outline-offset: 4px;
+        }        /* Modern Design Enhancements */
+        .main-nav button:active {
+            transform: scale(0.95);
+        }
+        .bottom-bar {
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+        .bottom-bar:hover {
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Loading Animation Enhancement */
+        .loading::after {
+            content: 'Loading...';
+            font-family: 'Marhey', sans-serif;
+            font-size: 20px;
+            color: #fff;
+            animation: loadingPulse 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-nav">
+        <button id="blogBtn" data-target="https://mystuff56.blogspot.com" data-tooltip="Read my blog"><span>Blog</span></button>
+        <button id="projectsBtn" data-target="https://myproject897.blogspot.com" data-tooltip="See my projects"><span>Projects</span></button>
+        <button id="aboutBtn" data-target="https://mysite9247.wordpress.com" data-tooltip="About me"><span>About</span></button>
+    </div>
+
+    <div class="bottom-bar">
+        <div class="clock-text" id="clock"></div>
+        <button class="toggle-btn" id="music-toggle">Music On</button>
+    </div>
+
+    <audio id="atmos-music" loop>
+        <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script>
+        // DOM Elements
+        const elements = {
+            music: document.getElementById('atmos-music'),
+            musicToggle: document.getElementById('music-toggle'),
+            clock: document.getElementById('clock')
+        };
+
+        // Clock Functionality
+        function updateClock() {
+            const now = new Date();
+            let hours = now.getHours() % 12 || 12;
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const ampm = now.getHours() >= 12 ? 'PM' : 'AM';
+            elements.clock.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Music Toggle Functionality
+        elements.music.volume = 0.59;
+        elements.music.pause();
+        elements.musicToggle.textContent = "Music Off";
+
+        function toggleMusic() {
+            if (elements.music.paused) {
+                elements.music.play();
+                elements.musicToggle.textContent = "Music On";
+            } else {
+                elements.music.pause();
+                elements.musicToggle.textContent = "Music Off";
+            }
+        }
+        elements.musicToggle.addEventListener('click', toggleMusic);
+
+        // Ensure tooltips and button interactions work correctly
+        const blogBtn = document.getElementById('blogBtn');
+        const projectsBtn = document.getElementById('projectsBtn');
+        const aboutBtn = document.getElementById('aboutBtn');
+
+        [blogBtn, projectsBtn, aboutBtn].forEach(btn => {
+            btn.addEventListener('click', function() {
+                const url = this.getAttribute('data-target');
+                if (url) {
+                    window.open(url, '_blank', 'noopener,noreferrer');
+                }
+            });
+
+            // Fix tooltip visibility on hover
+            btn.addEventListener('mouseenter', function() {
+                const tooltip = this.getAttribute('data-tooltip');
+                if (tooltip) {
+                    this.setAttribute('aria-label', tooltip);
+                }
+            });
+
+            btn.addEventListener('mouseleave', function() {
+                this.removeAttribute('aria-label');
+            });
+        });
+    </script>
+</body>
+</html>

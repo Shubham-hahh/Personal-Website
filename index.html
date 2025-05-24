@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Monday+Feelings&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, pink, blue);
+            background-size: 400% 400%; /* For smooth animation */
+            animation: gradientAnimation 20s linear infinite; /* Slower animation with 20s duration */
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .welcome-text {
+            font-size: 180px; /* Font size for WELCOME */
+            font-weight: bold;
+            color: white;
+            margin-bottom: 20px;
+            font-family: 'Bahiana', cursive; /* Apply Bahiana font */
+            letter-spacing: 2px; /* Slightly increased spacing */
+            position: relative;
+        }
+
+        .welcome-text::after {
+            content: "!";
+            font-size: 180px;
+            color: yellow;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Soft dark outline */
+            position: absolute;
+            right: -40px; /* Adjust position for exclamation mark */
+            top: 0;
+        }
+
+        .enter-button {
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+            font-family: 'Monday Feelings', cursive; /* Apply Monday Feelings font */
+        }
+
+        .enter-button:hover {
+            background-color: white; /* Change background to white */
+            color: black; /* Change text color to black for contrast */
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-text">WELCOME</div>
+    <button class="enter-button" onclick="location.href='load.html'">Enter Space</button>
+</body>
+</html>

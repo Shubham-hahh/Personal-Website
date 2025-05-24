@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white; /* Background remains white */
+            font-family: Arial, sans-serif;
+        }
+
+        #animation-container {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="animation-container"></div>
+
+    <script>
+        // Load the Lottie animation
+        const animation = lottie.loadAnimation({
+            container: document.getElementById('animation-container'), // The container element
+            renderer: 'svg',
+            loop: false, // Play the animation once
+            autoplay: true,
+            path: 'https://cdn.lottielab.com/l/6cw38rMm7hdWkd.json' // Lottie animation JSON URL
+        });
+
+        // Redirect to home.html after the animation ends
+        animation.addEventListener('complete', function() {
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>

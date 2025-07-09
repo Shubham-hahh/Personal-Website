@@ -1,7 +1,9 @@
 Website crafted with love by Swarup Roy, and gently paw-printed with glitter by Aura ✨🐾
 Co-created with a little help from GitHub Copilot, my AI sidekick in code and creativity 🤖💖
 
-Icons are sourced from the Material Design icon set on the Google Fonts website. Fonts used on this site were downloaded from Google Fonts unless noted otherwise. Special thanks to the talented type designers:
+Icons are sourced from the Material Design icon set on the Google Fonts website. Fonts used on this site were downloaded from Google Fonts unless noted otherwise. 
+
+Special thanks to the talented type designers:
 
 • Bahiana — Eduardo Tunni  
 • Comfortaa — Johan Aakerlund  

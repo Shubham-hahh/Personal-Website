@@ -207,6 +207,13 @@
             min-width: 100px;
             text-align: center;
             text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            animation: clockFade 3.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes clockFade {
+            0% { opacity: 1; }
+            50% { opacity: 0.6; }
+            100% { opacity: 1; }
         }
 
         .toggle-btn {
@@ -628,6 +635,37 @@
             width: 18px;
             height: 18px;
             display: block;
+            transition: transform 0.3s cubic-bezier(.36,.07,.19,.97);
+            transform-origin: 60% 80%;
+        }
+        .credits-btn:hover .credits-icon,
+        .credits-btn:focus .credits-icon {
+            animation: wave 1.6s cubic-bezier(.36,.07,.19,.97);
+        }
+        @keyframes wave {
+            0% { transform: rotate(0deg); }
+            10% { transform: rotate(-18deg); }
+            20% { transform: rotate(16deg); }
+            30% { transform: rotate(-12deg); }
+            40% { transform: rotate(10deg); }
+            50% { transform: rotate(-8deg); }
+            60% { transform: rotate(6deg); }
+            70% { transform: rotate(-4deg); }
+            80% { transform: rotate(2deg); }
+            90% { transform: rotate(-1deg); }
+            100% { transform: rotate(0deg); }
+        }
+        @keyframes wiggle {
+            0% { transform: rotate(0deg); }
+            15% { transform: rotate(-10deg); }
+            30% { transform: rotate(8deg); }
+            45% { transform: rotate(-6deg); }
+            60% { transform: rotate(4deg); }
+            75% { transform: rotate(-2deg); }
+            100% { transform: rotate(0deg); }
+        }
+        .wiggle {
+            animation: wiggle 1.2s cubic-bezier(.36,.07,.19,.97) 1 !important;
         }
         .credits-modal {
             position: fixed;
@@ -883,6 +921,16 @@
         creditsModal.addEventListener('click', function(e) {
             if (e.target === creditsModal) creditsModal.style.display = 'none';
         });
+
+        // Idle wiggle every 5 hours
+        function triggerWiggle() {
+            const icon = document.querySelector('.credits-icon');
+            if (icon) {
+                icon.classList.add('wiggle');
+                setTimeout(() => icon.classList.remove('wiggle'), 1300);
+            }
+        }
+        setInterval(triggerWiggle, 5 * 60 * 60 * 1000);
     </script>
 </body>
 </html>

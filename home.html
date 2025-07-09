@@ -4,8 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME</title>
-    <link href="https://fonts.googleapis.com/css2?family=Marhey&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="home.svg" />
     <style>
+        @font-face {
+            font-family: 'Comfortaa';
+            src: url('Comfortaa-VariableFont_wght.woff2') format('woff2');
+            font-weight: 300 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'DynaPuff';
+            src: url('DynaPuff-VariableFont_wdth,wght.woff2') format('woff2');
+            font-weight: 400 700;
+            font-stretch: 75% 125%;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Nunito';
+            src: url('Nunito-VariableFont_wght.woff2') format('woff2');
+            font-weight: 200 1000;
+            font-style: normal;
+            font-display: swap;
+        }
+
         /* Reset and Base Styles */
         * {
             margin: 0;
@@ -18,7 +41,7 @@
             padding: 0;
             background: url('background.gif') no-repeat center center fixed;
             background-size: cover;
-            font-family: 'Marhey', sans-serif;
+            font-family: 'Comfortaa', sans-serif;
             min-height: 100vh;
             position: relative;
             overflow-x: hidden;
@@ -48,7 +71,7 @@
         }
 
         .site-title {
-            font-family: 'Marhey', sans-serif;
+            font-family: 'Comfortaa', sans-serif;
             color: #000000;
             font-size: 2.5rem;
             margin: 0;
@@ -111,6 +134,7 @@
             text-shadow: 0 2px 4px rgba(0,0,0,0.2);
             position: relative;
             overflow: hidden;
+            font-family: 'Nunito', sans-serif;
         }
 
         @keyframes navFadeIn {
@@ -173,6 +197,7 @@
         }
 
         .clock-text {
+            font-family: 'DynaPuff', cursive;
             font-size: 20px;
             color: #fff;
             font-weight: bold;
@@ -495,10 +520,167 @@
         /* Loading Animation Enhancement */
         .loading::after {
             content: 'Loading...';
-            font-family: 'Marhey', sans-serif;
+            font-family: 'Comfortaa', sans-serif;
             font-size: 20px;
             color: #fff;
             animation: loadingPulse 1.5s infinite;
+        }
+
+        .made-with-love {
+            position: fixed;
+            right: 14px;
+            bottom: 10px;
+            left: auto;
+            transform: none;
+            font-family: 'Comfortaa', sans-serif;
+            font-size: 1.15rem;
+            color: #d72660;
+            background: rgba(255,255,255,0.72);
+            border-radius: 16px 10px 16px 16px;
+            padding: 10px 24px 10px 20px;
+            box-shadow: 0 4px 16px rgba(255,183,197,0.18), 0 1.5px 8px rgba(0,0,0,0.08);
+            z-index: 1200;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+            user-select: none;
+            backdrop-filter: blur(12px) saturate(1.2);
+            -webkit-backdrop-filter: blur(12px) saturate(1.2);
+            border: 1.5px solid rgba(255,183,197,0.22);
+            text-shadow: 0 2px 8px rgba(255,255,255,0.7), 0 1px 2px rgba(0,0,0,0.08);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        @media (max-width: 600px) {
+            .made-with-love {
+                font-size: 1rem;
+                padding: 8px 14px 8px 12px;
+                right: 8px;
+                bottom: 8px;
+            }
+        }
+        @media (max-width: 360px) {
+            .made-with-love {
+                font-size: 0.92rem;
+                padding: 6px 8px 6px 8px;
+                right: 4px;
+                bottom: 4px;
+            }
+        }
+
+        .credits-btn {
+            background: rgba(255,255,255,0.7);
+            border: 1.5px solid rgba(255,183,197,0.22);
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(255,183,197,0.12);
+            transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+            padding: 0;
+            outline: none;
+        }
+        .credits-btn:hover, .credits-btn:focus {
+            background: rgba(255, 223, 230, 0.95);
+            box-shadow: 0 4px 16px rgba(255,183,197,0.22);
+            transform: scale(1.08);
+        }
+        .credits-icon {
+            width: 18px;
+            height: 18px;
+            display: block;
+        }
+        .credits-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(255, 183, 197, 0.18);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 20000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .credits-modal-content {
+            background: linear-gradient(135deg, rgba(255, 223, 230, 0.95), rgba(255, 183, 197, 0.95));
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(255,183,197,0.18), 0 2px 12px rgba(0,0,0,0.08);
+            padding: 28px 24px 20px 24px;
+            min-width: 260px;
+            max-width: 92vw;
+            width: 350px;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            border: 1.5px solid rgba(255,183,197,0.22);
+            overflow-y: auto;
+        }
+        .credits-title {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #d72660;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        .credits-text {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.05rem;
+            color: #4A4A4A;
+            white-space: pre-line;
+            line-height: 1.6;
+            word-break: break-word;
+        }
+        .close-credits {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            background: none;
+            border: none;
+            font-size: 1.6rem;
+            color: #d72660;
+            cursor: pointer;
+            font-family: inherit;
+            z-index: 1;
+            padding: 0 4px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        .close-credits:hover, .close-credits:focus {
+            background: rgba(255,183,197,0.18);
+        }
+        @media (max-width: 600px) {
+            .credits-modal-content {
+                width: 92vw;
+                min-width: 0;
+                padding: 18px 6vw 14px 6vw;
+            }
+            .credits-title {
+                font-size: 1.1rem;
+            }
+            .credits-text {
+                font-size: 0.98rem;
+            }
+        }
+        @media (max-width: 360px) {
+            .credits-modal-content {
+                width: 98vw;
+                padding: 12px 2vw 10px 2vw;
+            }
+            .credits-title {
+                font-size: 0.98rem;
+            }
+            .credits-text {
+                font-size: 0.92rem;
+            }
         }
     </style>
 </head>
@@ -516,6 +698,20 @@
     <div class="bottom-bar">
         <div class="clock-text" id="clock"></div>
         <button class="toggle-btn" id="music-toggle">Music On</button>
+    </div>
+
+    <div class="made-with-love" id="madeWithLove">
+        <button class="credits-btn" id="creditsBtn" title="Credits">
+            <img src="credits.svg" alt="Credits" class="credits-icon" />
+        </button>
+        Made with 💕
+    </div>
+    <div class="credits-modal" id="creditsModal" style="display:none;">
+        <div class="credits-modal-content">
+            <button class="close-credits" id="closeCredits" title="Close">&times;</button>
+            <div class="credits-title">Credits</div>
+            <div class="credits-text" id="creditsText">Loading...</div>
+        </div>
     </div>
 
     <audio id="atmos-music" loop>
@@ -579,6 +775,29 @@
             btn.addEventListener('mouseleave', function() {
                 this.removeAttribute('aria-label');
             });
+        });
+
+        // Credits modal logic
+        const creditsBtn = document.getElementById('creditsBtn');
+        const creditsModal = document.getElementById('creditsModal');
+        const closeCredits = document.getElementById('closeCredits');
+        const creditsText = document.getElementById('creditsText');
+
+        creditsBtn.addEventListener('click', function() {
+            creditsModal.style.display = 'flex';
+            fetch('credits.txt')
+                .then(response => response.ok ? response.text() : 'Unable to load credits.')
+                .then(text => {
+                    // Use innerHTML with pre-line formatting for line breaks
+                    creditsText.innerHTML = text.replace(/\n/g, '<br>');
+                })
+                .catch(() => { creditsText.textContent = 'Unable to load credits.'; });
+        });
+        closeCredits.addEventListener('click', function() {
+            creditsModal.style.display = 'none';
+        });
+        creditsModal.addEventListener('click', function(e) {
+            if (e.target === creditsModal) creditsModal.style.display = 'none';
         });
     </script>
 </body>

@@ -194,6 +194,8 @@
             padding: 12px 24px;
             z-index: 1000;
             border: 1px solid rgba(255,255,255,0.1);
+            flex-direction: row;
+            align-items: center;
         }
 
         .clock-text {
@@ -559,12 +561,46 @@
                 bottom: 8px;
             }
         }
-        @media (max-width: 360px) {
+        @media (max-width: 480px) {
             .made-with-love {
-                font-size: 0.92rem;
-                padding: 6px 8px 6px 8px;
+                font-size: 0.98rem;
+                padding: 7px 10px 7px 8px;
                 right: 4px;
                 bottom: 4px;
+                gap: 4px;
+                border-radius: 14px 8px 14px 14px;
+                min-width: 0;
+                max-width: 95vw;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .credits-btn {
+                width: 26px;
+                height: 26px;
+                min-width: 26px;
+                min-height: 26px;
+                margin-right: 2px;
+            }
+            .credits-icon {
+                width: 14px;
+                height: 14px;
+            }
+        }
+        @media (max-width: 360px) {
+            .made-with-love {
+                font-size: 0.85rem;
+                padding: 5px 6px 5px 6px;
+                gap: 2px;
+            }
+            .credits-btn {
+                width: 20px;
+                height: 20px;
+                min-width: 20px;
+                min-height: 20px;
+            }
+            .credits-icon {
+                width: 10px;
+                height: 10px;
             }
         }
 
@@ -743,13 +779,13 @@
         <div class="clock-text" id="clock"></div>
         <button class="toggle-btn" id="music-toggle"><img id="music-icon" src="musicoff.svg" alt="Music Off" style="width:24px;height:24px;" /></button>
     </div>
-
     <div class="made-with-love" id="madeWithLove">
         <button class="credits-btn" id="creditsBtn" title="Credits" aria-label="Credits">
             <img src="credits.svg" alt="Credits" class="credits-icon" />
         </button>
         <span class="love-text">Made with 💕</span>
     </div>
+
     <div class="credits-modal" id="creditsModal" style="display:none;">
         <div class="credits-modal-content">
             <button class="close-credits" id="closeCredits" title="Close">&times;</button>

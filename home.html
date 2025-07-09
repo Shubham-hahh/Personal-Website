@@ -682,6 +682,50 @@
                 font-size: 0.92rem;
             }
         }
+
+        /* Compact Made with Love Section on Small Devices */
+        @media (max-width: 480px) {
+            .made-with-love {
+                font-size: 0.98rem;
+                padding: 7px 10px 7px 8px;
+                right: 4px;
+                bottom: 4px;
+                gap: 4px;
+                border-radius: 14px 8px 14px 14px;
+                min-width: 0;
+                max-width: 95vw;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .credits-btn {
+                width: 26px;
+                height: 26px;
+                min-width: 26px;
+                min-height: 26px;
+                margin-right: 2px;
+            }
+            .credits-icon {
+                width: 14px;
+                height: 14px;
+            }
+        }
+        @media (max-width: 360px) {
+            .made-with-love {
+                font-size: 0.85rem;
+                padding: 5px 6px 5px 6px;
+                gap: 2px;
+            }
+            .credits-btn {
+                width: 20px;
+                height: 20px;
+                min-width: 20px;
+                min-height: 20px;
+            }
+            .credits-icon {
+                width: 10px;
+                height: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -701,10 +745,10 @@
     </div>
 
     <div class="made-with-love" id="madeWithLove">
-        <button class="credits-btn" id="creditsBtn" title="Credits">
+        <button class="credits-btn" id="creditsBtn" title="Credits" aria-label="Credits">
             <img src="credits.svg" alt="Credits" class="credits-icon" />
         </button>
-        Made with 💕
+        <span class="love-text">Made with 💕</span>
     </div>
     <div class="credits-modal" id="creditsModal" style="display:none;">
         <div class="credits-modal-content">

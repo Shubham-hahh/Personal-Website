@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loading</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
     <style>
         body {
             margin: 0;
@@ -17,29 +16,45 @@
         }
 
         #animation-container {
-            width: 300px;
-            height: 300px;
+            width: 60vw;
+            max-width: 300px;
+            height: 60vw;
+            max-height: 300px;
             position: relative;
+        }
+        #animation-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+        @media (max-width: 480px) {
+            #animation-container {
+                width: 80vw;
+                height: 80vw;
+                max-width: 200px;
+                max-height: 200px;
+            }
+        }
+        @media (max-width: 320px) {
+            #animation-container {
+                width: 90vw;
+                height: 90vw;
+                max-width: 120px;
+                max-height: 120px;
+            }
         }
     </style>
 </head>
 <body>
-    <div id="animation-container"></div>
-
+    <div id="animation-container">
+        <img src="load.gif" alt="Loading..." />
+    </div>
     <script>
-        // Load the Lottie animation
-        const animation = lottie.loadAnimation({
-            container: document.getElementById('animation-container'), // The container element
-            renderer: 'svg',
-            loop: false, // Play the animation once
-            autoplay: true,
-            path: 'https://cdn.lottielab.com/l/6cw38rMm7hdWkd.json' // Lottie animation JSON URL
-        });
-
-        // Redirect to home.html after the animation ends
-        animation.addEventListener('complete', function() {
+        // Redirect to home.html after 2.5 seconds (approximate duration of the previous animation)
+        setTimeout(function() {
             window.location.href = 'home.html';
-        });
+        }, 2500);
     </script>
 </body>
 </html>

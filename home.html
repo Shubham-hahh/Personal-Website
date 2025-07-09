@@ -697,7 +697,7 @@
 
     <div class="bottom-bar">
         <div class="clock-text" id="clock"></div>
-        <button class="toggle-btn" id="music-toggle">Music On</button>
+        <button class="toggle-btn" id="music-toggle"><img id="music-icon" src="musicoff.svg" alt="Music Off" style="width:24px;height:24px;" /></button>
     </div>
 
     <div class="made-with-love" id="madeWithLove">
@@ -723,6 +723,7 @@
         const elements = {
             music: document.getElementById('atmos-music'),
             musicToggle: document.getElementById('music-toggle'),
+            musicIcon: document.getElementById('music-icon'),
             clock: document.getElementById('clock')
         };
 
@@ -740,15 +741,18 @@
         // Music Toggle Functionality
         elements.music.volume = 0.59;
         elements.music.pause();
-        elements.musicToggle.textContent = "Music Off";
+        elements.musicIcon.src = "musicoff.svg";
+        elements.musicIcon.alt = "Music Off";
 
         function toggleMusic() {
             if (elements.music.paused) {
                 elements.music.play();
-                elements.musicToggle.textContent = "Music On";
+                elements.musicIcon.src = "musicon.svg";
+                elements.musicIcon.alt = "Music On";
             } else {
                 elements.music.pause();
-                elements.musicToggle.textContent = "Music Off";
+                elements.musicIcon.src = "musicoff.svg";
+                elements.musicIcon.alt = "Music Off";
             }
         }
         elements.musicToggle.addEventListener('click', toggleMusic);

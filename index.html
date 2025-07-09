@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WELCOME</title>
-    <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Monday+Feelings&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="welcome.svg">
     <style>
+        @font-face {
+            font-family: 'Bahiana';
+            src: url('Bahiana-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Monday Feelings';
+            src: url('Monday Feelings.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
         body {
             margin: 0;
             height: 100vh;
@@ -61,7 +73,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
-            font-family: 'Monday Feelings', cursive; /* Apply Monday Feelings font */
+            font-family: 'Monday Feelings', cursive; /* Use local Monday Feelings font */
         }
 
         .enter-button:hover {

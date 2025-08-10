@@ -1,4 +1,4 @@
-# personalwebsite
+# Personal Website
 
 ## Hey there 👋  
 Welcome to **my corner of the internet** — where my thoughts, projects, and questionable sense of humor all coexist in *surprising* harmony.  

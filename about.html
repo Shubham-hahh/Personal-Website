@@ -31,7 +31,7 @@
             font-display: swap;
         }
         body {
-            background: #f8f4ff url('background.jpg') center/cover no-repeat fixed;
+            background: #f8f4ff url('aboutbackground.jpg') center/cover no-repeat fixed;
             font-family: 'KnewaveLocal', Arial, sans-serif;
             color: #5a3e6b;
             margin: 0;
@@ -43,13 +43,13 @@
         }
         .about-container {
             max-width: min(90%, 480px);
-            background: rgba(255, 255, 255, 0.92);
+            background: rgba(255, 252, 255, 0.85);
             border-radius: 32px;
-            box-shadow: 0 8px clamp(20px, 5vw, 40px) rgba(90,62,107,0.18);
+            box-shadow: 0 8px clamp(20px, 5vw, 40px) rgba(90,62,107,0.25);
             padding: clamp(24px, 5vw, 44px) clamp(20px, 4vw, 36px);
             text-align: center;
             position: relative;
-            border: 2px solid #e67ca5;
+            border: 2px solid #ff89b9;
             animation: floatUp 1.2s cubic-bezier(.42,0,.58,1) 1;
         }
         @keyframes floatUp {
@@ -59,21 +59,21 @@
         .about-title {
             font-family: 'KnewaveLocal', cursive;
             font-size: 3rem;
-            color: #e67ca5;
+            color: #ff89b9;
             margin-bottom: 16px;
             letter-spacing: 1.5px;
-            text-shadow: 0 2px 8px #f8c6e7;
+            text-shadow: 0 2px 8px rgba(255, 137, 185, 0.4);
         }
         .about-desc {
             font-family: 'LexendLocal', 'Lexend', 'NunitoLocal', 'Nunito', Arial, sans-serif;
             font-size: 1.05rem;
             line-height: 1.8;
-            color: #6b4f7a;
+            color: #4a3d54;
             margin-bottom: 0;
-            background: rgba(245, 235, 255, 0.5);
+            background: rgba(255, 245, 252, 0.6);
             border-radius: 16px;
             padding: 18px 12px;
-            box-shadow: 0 2px 12px rgba(230,124,165,0.07);
+            box-shadow: 0 2px 12px rgba(255,137,185,0.15);
         }
         .about-icon {
             display: block;
@@ -103,18 +103,18 @@
             display: inline-block;
             margin-top: 25px;
             padding: 10px 20px;
-            background: #e67ca5;
+            background: #ff89b9;
             color: white;
             text-decoration: none;
             border-radius: 20px;
             font-size: 1rem;
             transition: all 0.3s ease;
-            box-shadow: 0 3px 10px rgba(230,124,165,0.2);
+            box-shadow: 0 3px 10px rgba(255,137,185,0.3);
         }
         .go-back:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(230,124,165,0.3);
-            background: #f38ab3;
+            box-shadow: 0 5px 15px rgba(255,137,185,0.4);
+            background: #ff9dc7;
         }
         @media (max-width: 600px) {
             .about-container {

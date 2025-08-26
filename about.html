@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Crossie</title>
+    <link rel="icon" type="image/svg+xml" href="about.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'KnewaveLocal';
+            src: url('Knewave-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'NunitoLocal';
+            src: url('Nunito-VariableFont_wght.woff2') format('woff2');
+            font-weight: 400 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'LexendLocal';
+            src: url('LexendGiga-VariableFont_wght.woff2') format('woff2');
+            font-weight: 100 900;
+            font-style: normal;
+            font-display: swap;
+        }
+        body {
+            background: #f8f4ff url('background.jpg') center/cover no-repeat fixed;
+            font-family: 'KnewaveLocal', Arial, sans-serif;
+            color: #5a3e6b;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .about-container {
+            max-width: min(90%, 480px);
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 32px;
+            box-shadow: 0 8px clamp(20px, 5vw, 40px) rgba(90,62,107,0.18);
+            padding: clamp(24px, 5vw, 44px) clamp(20px, 4vw, 36px);
+            text-align: center;
+            position: relative;
+            border: 2px solid #e67ca5;
+            animation: floatUp 1.2s cubic-bezier(.42,0,.58,1) 1;
+        }
+        @keyframes floatUp {
+            from { transform: translateY(40px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .about-title {
+            font-family: 'KnewaveLocal', cursive;
+            font-size: 3rem;
+            color: #e67ca5;
+            margin-bottom: 16px;
+            letter-spacing: 1.5px;
+            text-shadow: 0 2px 8px #f8c6e7;
+        }
+        .about-desc {
+            font-family: 'LexendLocal', 'Lexend', 'NunitoLocal', 'Nunito', Arial, sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #6b4f7a;
+            margin-bottom: 0;
+            background: rgba(245, 235, 255, 0.5);
+            border-radius: 16px;
+            padding: 18px 12px;
+            box-shadow: 0 2px 12px rgba(230,124,165,0.07);
+        }
+        .about-icon {
+            display: block;
+            margin: 0 auto 22px auto;
+            width: 54px;
+            height: 54px;
+            animation: floatIcon 1.6s infinite alternate;
+        }
+        @keyframes floatIcon {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-8px); }
+        }
+        .about-corner {
+            font-size: 1.05rem;
+            color: #b38fc2;
+            margin-top: 32px;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+        .about-corner::before {
+            content: "☁️ ";
+        }
+        .about-corner::after {
+            content: " ☁️";
+        }
+        .go-back {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 20px;
+            background: #e67ca5;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(230,124,165,0.2);
+        }
+        .go-back:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(230,124,165,0.3);
+            background: #f38ab3;
+        }
+        @media (max-width: 600px) {
+            .about-container {
+                max-width: 98vw;
+                padding: 18px 6vw 18px 6vw;
+                border-radius: 18px;
+            }
+            .about-title {
+                font-size: 1.45rem;
+            }
+            .about-desc {
+                font-size: 0.92rem;
+                padding: 10px 4vw;
+            }
+            .about-icon {
+                width: 32px;
+                height: 32px;
+                margin-bottom: 12px;
+            }
+            .go-back {
+                font-size: 0.95rem;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+    <div class="about-icon" style="font-size:2.5rem; color:#e67ca5; margin-bottom:22px; animation:floatIcon 1.6s infinite alternate;">&#128151;</div>
+        <div class="about-title">Hey, I’m Crossie!</div>
+    <div class="about-desc">A soft-hearted rebel with a shy soul and a wild curiosity. I love exploring the unknown, creating new things from scratch, and learning like it’s my second heartbeat. But at the center of it all is storytelling — my truest language, my way of understanding the world. Whether I’m coding a game world, writing about messy emotions, or diving deep into a random topic at 2 a.m., I’m always chasing that feeling of discovery. I believe in gentle power, emotional honesty, and the idea that creativity is a kind of quiet magic. This site is my comfy corner of the internet — part creation zone, part soul archive — a soft echo of how I think, feel, and tell my stories.</div>
+        <div class="about-corner">Welcome to my cozy corner &#128049;</div>
+        <a href="home.html" class="go-back" title="Go back to Home" aria-label="Go back to Home">&larr; Go back</a>
+    </div>
+</body>
+</html>

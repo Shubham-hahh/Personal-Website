@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Added description for SEO -->
+    <meta name="description" content="Welcome to the space portal. Enter to explore.">
+    <!-- Matches browser toolbar color to background on mobile -->
+    <meta name="theme-color" content="#ffc0cb">
     <title>WELCOME</title>
     <link rel="icon" type="image/svg+xml" href="welcome.svg">
     <style>
@@ -11,12 +15,14 @@
             src: url('Bahiana-Regular.woff2') format('woff2');
             font-weight: normal;
             font-style: normal;
+            font-display: swap; /* Improvement: Shows fallback text immediately if font loads slowly */
         }
         @font-face {
             font-family: 'Monday Feelings';
             src: url('Monday Feelings.woff2') format('woff2');
             font-weight: normal;
             font-style: normal;
+            font-display: swap; /* Improvement: Shows fallback text immediately if font loads slowly */
         }
 
         body {
@@ -27,40 +33,39 @@
             justify-content: center;
             align-items: center;
             background: linear-gradient(135deg, pink, blue);
-            background-size: 400% 400%; /* For smooth animation */
-            animation: gradientAnimation 20s linear infinite; /* Slower animation with 20s duration */
+            background-size: 400% 400%;
+            animation: gradientAnimation 20s linear infinite;
             font-family: Arial, sans-serif;
+            overflow: hidden; /* Improvement: Prevents scrollbars if the exclamation mark pushes out */
+            will-change: background-position; /* Improvement: Optimizes animation performance */
         }
 
         @keyframes gradientAnimation {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
-        .welcome-text {
-            font-size: 180px; /* Font size for WELCOME */
+        /* Changed from class to H1 for SEO, styles remain identical */
+        h1.welcome-text {
+            font-size: 180px;
             font-weight: bold;
             color: white;
-            margin-bottom: 20px;
-            font-family: 'Bahiana', cursive; /* Apply Bahiana font */
-            letter-spacing: 2px; /* Slightly increased spacing */
+            margin: 0 0 20px 0; /* Reset default browser margins */
+            font-family: 'Bahiana', cursive;
+            letter-spacing: 2px;
             position: relative;
+            line-height: 1; /* Fixes vertical alignment issues */
+            cursor: default;
         }
 
-        .welcome-text::after {
+        h1.welcome-text::after {
             content: "!";
             font-size: 180px;
             color: yellow;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Soft dark outline */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             position: absolute;
-            right: -40px; /* Adjust position for exclamation mark */
+            right: -40px;
             top: 0;
         }
 
@@ -72,22 +77,32 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
-            font-family: 'Monday Feelings', cursive; /* Use local Monday Feelings font */
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s;
+            font-family: 'Monday Feelings', cursive;
         }
 
         .enter-button:hover {
-            background-color: white; /* Change background to white */
-            color: black; /* Change text color to black for contrast */
+            background-color: white;
+            color: black;
+        }
+
+        /* Improvement: Accessibility focus state for keyboard navigation */
+        .enter-button:focus-visible {
+            outline: 3px solid yellow;
+            outline-offset: 4px;
+        }
+
+        .enter-button:active {
+            transform: scale(0.98); /* Subtle click feel */
         }
 
         /* Responsive Styles */
         @media (max-width: 768px) {
-            .welcome-text {
+            h1.welcome-text {
                 font-size: 120px;
                 text-align: center;
             }
-            .welcome-text::after {
+            h1.welcome-text::after {
                 font-size: 120px;
                 right: -30px;
             }
@@ -98,11 +113,11 @@
         }
 
         @media (max-width: 480px) {
-            .welcome-text {
+            h1.welcome-text {
                 font-size: 80px;
                 text-align: center;
             }
-            .welcome-text::after {
+            h1.welcome-text::after {
                 font-size: 80px;
                 right: -20px;
             }
@@ -113,10 +128,10 @@
         }
 
         @media (max-width: 320px) {
-            .welcome-text {
+            h1.welcome-text {
                 font-size: 60px;
             }
-            .welcome-text::after {
+            h1.welcome-text::after {
                 font-size: 60px;
                 right: -15px;
             }
@@ -128,7 +143,8 @@
     </style>
 </head>
 <body>
-    <div class="welcome-text">WELCOME</div>
-    <button class="enter-button" onclick="location.href='load.html'">Enter Space</button>
+    <!-- Changed div to h1 for better SEO/Semantics -->
+    <h1 class="welcome-text">WELCOME</h1>
+    <button class="enter-button" onclick="location.href='home.html'" aria-label="Enter Space">Enter Space</button>
 </body>
 </html>

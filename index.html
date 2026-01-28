@@ -8,21 +8,26 @@
     <!-- Matches browser toolbar color to background on mobile -->
     <meta name="theme-color" content="#ffc0cb">
     <title>WELCOME</title>
-    <link rel="icon" type="image/svg+xml" href="welcome.svg">
+    
+    <!-- FIX: Closed the quote and changed backslashes to forward slashes -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/welcome.svg">
+    
     <style>
         @font-face {
             font-family: 'Bahiana';
-            src: url('Bahiana-Regular.woff2') format('woff2');
+            /* FIX: Updated path to assets folder */
+            src: url('assets/fonts/welcome_page/Bahiana-Regular.woff2') format('woff2');
             font-weight: normal;
             font-style: normal;
-            font-display: swap; /* Improvement: Shows fallback text immediately if font loads slowly */
+            font-display: swap; 
         }
         @font-face {
             font-family: 'Monday Feelings';
-            src: url('Monday Feelings.woff2') format('woff2');
+            /* FIX: Updated path to assets folder */
+            src: url('assets/fonts/welcome_page/Monday Feelings.woff2') format('woff2');
             font-weight: normal;
             font-style: normal;
-            font-display: swap; /* Improvement: Shows fallback text immediately if font loads slowly */
+            font-display: swap; 
         }
 
         body {
@@ -36,8 +41,8 @@
             background-size: 400% 400%;
             animation: gradientAnimation 20s linear infinite;
             font-family: Arial, sans-serif;
-            overflow: hidden; /* Improvement: Prevents scrollbars if the exclamation mark pushes out */
-            will-change: background-position; /* Improvement: Optimizes animation performance */
+            overflow: hidden; 
+            will-change: background-position; 
         }
 
         @keyframes gradientAnimation {
@@ -46,16 +51,15 @@
             100% { background-position: 0% 50%; }
         }
 
-        /* Changed from class to H1 for SEO, styles remain identical */
         h1.welcome-text {
             font-size: 180px;
             font-weight: bold;
             color: white;
-            margin: 0 0 20px 0; /* Reset default browser margins */
+            margin: 0 0 20px 0; 
             font-family: 'Bahiana', cursive;
             letter-spacing: 2px;
             position: relative;
-            line-height: 1; /* Fixes vertical alignment issues */
+            line-height: 1; 
             cursor: default;
         }
 
@@ -86,14 +90,13 @@
             color: black;
         }
 
-        /* Improvement: Accessibility focus state for keyboard navigation */
         .enter-button:focus-visible {
             outline: 3px solid yellow;
             outline-offset: 4px;
         }
 
         .enter-button:active {
-            transform: scale(0.98); /* Subtle click feel */
+            transform: scale(0.98); 
         }
 
         /* Responsive Styles */
@@ -143,8 +146,7 @@
     </style>
 </head>
 <body>
-    <!-- Changed div to h1 for better SEO/Semantics -->
     <h1 class="welcome-text">WELCOME</h1>
-    <button class="enter-button" onclick="location.href='home.html'" aria-label="Enter Space">Enter Space</button>
+    <button class="enter-button" onclick="location.href='pages/home.html'" aria-label="Enter Space">Enter Space</button>
 </body>
 </html>

@@ -1,0 +1,127 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "43748419340fb10c1bf0205993d5c42d"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "67580d289ac2f2b51f0a97739cc7555e"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "af47b0aaa11b60afc5a5e31dc010eacc"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/grenzegotisch",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/grenzegotisch/grenzegotisch.woff2",
+        "type": "file",
+        "md5": "466a622fe1a65dde025166a158f58b48"
+    },
+    {
+        "path": "assets/dynamic/fonts/handjet",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/handjet/handjet.woff2",
+        "type": "file",
+        "md5": "1a3bcd35361e8439934d136482473bea"
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/isotope.pkgd.min.js",
+        "type": "file",
+        "md5": "2afcff647ed260006faa71c8e779e8d4"
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e9f1b21d608ebeba9417b52ee3ec6917"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "4268bfae06e330d473c424d50f09abda"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "151e31ba62789782fcd457b5b884ba8a"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "2813b916db5705fbd8cc3024ce107375"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "32d92c6756b8639b8498618a92253c2f"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "39227efe49e23e8a2e99b4f9879fde6c"
+    }
+]

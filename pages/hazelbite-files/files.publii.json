@@ -187,12 +187,12 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "12a652a383a54bc7ef38b82487407c9e"
+        "md5": "ad64a7a925db768462c6cc494c5a4a9a"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "f6f18d0e7f06fbc3e766b47d0958ef38"
+        "md5": "5f2d700de81a1eb1d09b7361053efeff"
     },
     {
         "path": "media",
@@ -213,51 +213,6 @@
         "path": "/media/files/Quintessential-Regular.woff2",
         "type": "file",
         "md5": "5cb3c281f39fccba0533c2e0f73dc37c"
-    },
-    {
-        "path": "media/posts",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/3",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/3/4323987-3648615717.jpg",
-        "type": "file",
-        "md5": "e5403af9886a012012e5fae9136b4d00"
-    },
-    {
-        "path": "media/posts/3/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/3/responsive/4323987-3648615717-lg.webp",
-        "type": "file",
-        "md5": "6c46f23a9d9212a124e0fcf8b63adcf3"
-    },
-    {
-        "path": "/media/posts/3/responsive/4323987-3648615717-md.webp",
-        "type": "file",
-        "md5": "c7831d3183eb111dcdf57f795798acb3"
-    },
-    {
-        "path": "/media/posts/3/responsive/4323987-3648615717-sm.webp",
-        "type": "file",
-        "md5": "7f7db54537916113ab3325f3cc7f6bbc"
-    },
-    {
-        "path": "/media/posts/3/responsive/4323987-3648615717-xl.webp",
-        "type": "file",
-        "md5": "1645052599045fe51777f339796ac276"
-    },
-    {
-        "path": "/media/posts/3/responsive/4323987-3648615717-xs.webp",
-        "type": "file",
-        "md5": "19a9ce2b26016a33d038a16a0e27b87b"
     },
     {
         "path": "media/website",
@@ -362,6 +317,6 @@
     {
         "path": "test-2.html",
         "type": "file",
-        "md5": "ac543162503ef9a60c283cc8b0a5f81b"
+        "md5": "cbfdc238dc447ce920f049d3d1656e3b"
     }
 ]

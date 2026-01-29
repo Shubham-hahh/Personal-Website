@@ -1,10 +1,11 @@
 Website crafted with love by **Crossie**, and gently paw-printed with glitter by ***Nayari*** ✨🐾
 Co-created with the help from **GitHub Copilot**, my AI sidekick in code and creativity 🤖💖
 
+
 Icons are sourced from the Material Design icon set on the Google Fonts website. Fonts used on this site were downloaded from Google Fonts unless noted otherwise.
 
-Special thanks to the talented type designers:
 
+Special thanks to the talented type designers:
 
 
 * Bahiana — Eduardo Tunni
@@ -14,11 +15,9 @@ Special thanks to the talented type designers:
 * Monday Feelings — Hungry Studio (sourced from 1001 Fonts)
 
 
-
 Background art by sitinurshahidasitinurain, sourced from Wallpapers.com.  
-Background music is from the video: "Breathe 🍀 Lofi Deep Focus 🌳 Study/Calm/Heal \[ Lofi Hip Hop - Lofi Chill ]" by LOFI KEEP YOU SAFE on YouTube.
+Background music (Temporary) is "Eternity" by SoundAudio -- Personal/Non-Commercial Use Only 
 
-Audio extracted via yt1z.net for personal non-commercial use.
 
 **All rights belong to their respective creators**.
 This site is made with cozy vibes, pixel love, and a sprinkle of moonlight. 🌙💕

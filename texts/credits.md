@@ -12,7 +12,7 @@ Special thanks to the talented type designers:
 * Comfortaa — Johan Aakerlund
 * Caveat — Pablo Impallari
 * Nunito — Vernon Adams (extended by Jacques Le Bailly)
-* Monday Feelings — Hungry Studio (sourced from 1001 Fonts)
+* GochiHand — Huerta Tipográfica
 
 
 Background art by sitinurshahidasitinurain, sourced from Wallpapers.com.  

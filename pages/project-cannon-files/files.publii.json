@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "43748419340fb10c1bf0205993d5c42d"
+        "md5": "f98d04af8305500b1f2bc3a81b5fd1bb"
     },
     {
         "path": "assets",
@@ -107,7 +107,22 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "32d92c6756b8639b8498618a92253c2f"
+        "md5": "1efa8132fa58a30644977a5f4e02a1a0"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/20260130_154745-1.svg",
+        "type": "file",
+        "md5": "745a27c995060789819cc8c71178db56"
     },
     {
         "path": "robots.txt",
@@ -122,6 +137,6 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "39227efe49e23e8a2e99b4f9879fde6c"
+        "md5": "4d794a2961cb9fef5b1f9b16fbdb06f1"
     }
 ]

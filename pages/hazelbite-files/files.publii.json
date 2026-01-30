@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "2888677453ebc6ff3f8c3b6f784bd81b"
+        "md5": "5ac75b850b1ce017f020daf09e4c1e80"
     },
     {
         "path": "assets",
@@ -187,12 +187,12 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "376fa54085c3d92aab1fd9be39473f7c"
+        "md5": "7a3687112cf2ff681d82fc428207c78f"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "2927b855d18810b25ac3c8dfea04f904"
+        "md5": "8bba07ec93e63785122a1f7dec8b8c30"
     },
     {
         "path": "media",
@@ -347,11 +347,11 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ea1eff9ba80ab7211db7d38f6ccdb40f"
+        "md5": "a83d8f2fb009442dfaead5f97ee7c8ba"
     },
     {
         "path": "test-2.html",
         "type": "file",
-        "md5": "3fb46adbba75e8f05f1429fc1ba00ff6"
+        "md5": "9aaf7f4b89f4b53cfc314e2897269ba3"
     }
 ]

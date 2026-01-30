@@ -16,7 +16,7 @@ Special thanks to the talented type designers:
 
 
 Background art by sitinurshahidasitinurain, sourced from Wallpapers.com.  
-Background music (Temporary) is "Eternity" by SoundAudio -- Personal/Non-Commercial Use Only 
+Background music is "Aesthetic Lofi Loop" by Seth_Makes_Sounds.
 
 
 **All rights belong to their respective creators**.

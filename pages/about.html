@@ -40,12 +40,10 @@
             margin: 0;
             padding: 0;
             min-height: 100vh;
-            /* MOBILE FIX: Use dvh to handle mobile address bars correctly */
             min-height: 100dvh;
             display: flex;
             align-items: center;
             justify-content: center;
-            /* Prevent horizontal scroll on small devices */
             overflow-x: hidden; 
         }
 
@@ -59,7 +57,6 @@
             box-shadow: 
                 0 20px 50px rgba(0,0,0,0.5), 
                 inset 0 0 40px rgba(93, 64, 55, 0.1);
-            /* Responsive padding using clamp */
             padding: clamp(25px, 5vw, 50px);
             text-align: center;
             position: relative;
@@ -112,7 +109,6 @@
             line-height: 1.8;
             color: var(--text-ink);
             margin-bottom: 1.5em;
-            /* Desktop Alignment */
             text-align: justify;
             text-align-last: center;
         }
@@ -121,35 +117,59 @@
         .error-text { color: #d32f2f; font-weight: bold; }
         @keyframes pulse { 50% { opacity: 0.5; } }
 
-        /* --- BUTTONS & FOOTER --- */
+        /* --- FOOTER & NAVIGATION --- */
         .footer-actions {
             margin-top: 35px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
             border-top: 2px solid var(--accent-warm);
             padding-top: 25px;
         }
 
-        .go-back {
-            display: inline-block;
-            padding: 12px 30px;
+        /* Container for the 3 navigation buttons */
+        .nav-row {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* New Visual Button Style (Based on previous .go-back) */
+        .nav-icon-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
             background: var(--wood-dark);
             background-image: linear-gradient(to bottom, var(--wood-dark), #3e2723);
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            font-family: 'KnewaveLocal', cursive;
-            font-size: 1.1rem;
-            letter-spacing: 1px;
+            border-radius: 12px;
             border: 2px solid #3e2723;
             box-shadow: 0 4px 0 #2d1b18; 
             transition: all 0.2s ease;
+            cursor: pointer;
         }
 
-        .go-back:hover { transform: translateY(-2px); background: var(--wood-light); }
-        .go-back:active { transform: translateY(4px); box-shadow: 0 0 0 #2d1b18; }
+        .nav-icon-btn img {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            /* Ensures icons are visible against dark wood if they are black SVGs */
+            /* Remove this filter if your SVGs are already white/colored */
+            filter: brightness(0) invert(1); 
+        }
+
+        .nav-icon-btn:hover { 
+            transform: translateY(-2px); 
+            background: var(--wood-light); 
+        }
+
+        .nav-icon-btn:active { 
+            transform: translateY(4px); 
+            box-shadow: 0 0 0 #2d1b18; 
+        }
 
         .bmc-button img {
             height: 50px !important;
@@ -172,18 +192,27 @@
                 width: 95%; 
                 padding: 25px 20px; 
                 border-width: 5px; 
-                margin: 20px 0; /* Less margin on mobile */
+                margin: 20px 0; 
             }
             .content-area h1 { font-size: 2rem; }
             
             .content-area p { 
                 font-size: 0.95rem; 
-                /* MOBILE FIX: Reset alignment to left for readability */
                 text-align: left; 
                 text-align-last: left; 
             }
             
             .bmc-button img { height: 45px !important; }
+
+            /* Adjust button size slightly for very small screens if needed */
+            .nav-icon-btn {
+                width: 50px;
+                height: 50px;
+            }
+            .nav-icon-btn img {
+                width: 24px;
+                height: 24px;
+            }
         }
     </style>
 </head>
@@ -203,7 +232,19 @@
                     <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a doughnut&emoji=🍩&slug=swaruproy1d&button_colour=5d4037&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00" alt="Buy me a doughnut"/>
                 </a>
             </div>
-            <a href="home.html" class="go-back" title="Return Home">Return Home</a>
+            
+            <!-- New Navigation Icons -->
+            <div class="nav-row">
+                <a href="home.html" class="nav-icon-btn" title="Go Home">
+                    <img src="../assets/icons/gohome.svg" alt="Home">
+                </a>
+                <a href="hazelbite-files/index.html" class="nav-icon-btn" title="Visit Hazelbite">
+                    <img src="../assets/icons/visitblog.svg" alt="Blog">
+                </a>
+                <a href="project-cannon-files/index.html" class="nav-icon-btn" title="Visit Project Cannon">
+                    <img src="../assets/icons/visitoroject.svg" alt="Projects">
+                </a>
+            </div>
         </div>
     </div>
 

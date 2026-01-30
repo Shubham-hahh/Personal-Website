@@ -2,12 +2,12 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "444262313b9b42c1dd485351ff0d5abf"
+        "md5": "e472b9a60206b045c2dafab370dab556"
     },
     {
         "path": "a-rule-breakers-manifesto-born-in-bengal-raised-by-resistance.html",
         "type": "file",
-        "md5": "b329c63ae35df89c1d192f9214fff951"
+        "md5": "38ad7271673be8c9e54bac6ddd347091"
     },
     {
         "path": "assets",
@@ -32,7 +32,7 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "7a79ee7ba9aade454a028965c9211743"
+        "md5": "9e122fc5e2b4c9aed89108947a51f42d"
     },
     {
         "path": "/assets/css/noscript.css",
@@ -42,7 +42,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "43303e04e84517ccf20af1e10b092a44"
+        "md5": "58ad9d0e3f02cceb0b5de04ae597392e"
     },
     {
         "path": "assets/dynamic",
@@ -192,12 +192,12 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "63b6d73a3f115f45c46e49f160f9e948"
+        "md5": "12d26d38ed73deb41e3b35a75364fb9e"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "fa72d85be163fa9231240480ac685d52"
+        "md5": "b535fd131f026338a3c2c60e1b5c4b7a"
     },
     {
         "path": "media",
@@ -362,11 +362,11 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "cba933f850f885b59f59789cb5876325"
+        "md5": "21eb25ae7e9da917453ccba41ff519fd"
     },
     {
         "path": "test-2.html",
         "type": "file",
-        "md5": "4d84c8d3fde7c0fb29bc35d4aa932f8b"
+        "md5": "cd185ebb0da662eb72811b6d3bb12f2f"
     }
 ]

@@ -10,6 +10,21 @@
         "md5": "38ad7271673be8c9e54bac6ddd347091"
     },
     {
+        "path": "akera-devlog-1-when-one-world-fades-another-begins.html",
+        "type": "file",
+        "md5": "5271790c0b23e7e63682f6a5755758a9"
+    },
+    {
+        "path": "akera-devlog-2-from-janky-skies-to-soothing-souls.html",
+        "type": "file",
+        "md5": "ed7fa0a0b6d407abb5d7887363691f7a"
+    },
+    {
+        "path": "akera-devlog-3-making-the-world-breathe.html",
+        "type": "file",
+        "md5": "3b73375241790a11b63e8c422cf18c48"
+    },
+    {
         "path": "assets",
         "type": "directory",
         "md5": false
@@ -192,12 +207,27 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "12d26d38ed73deb41e3b35a75364fb9e"
+        "md5": "665f0b48e3de9bae695d4fe9199638f4"
+    },
+    {
+        "path": "authors/crossie/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/crossie/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/crossie/page/2/index.html",
+        "type": "file",
+        "md5": "678e5ce20e01948f992425903ced2754"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "b535fd131f026338a3c2c60e1b5c4b7a"
+        "md5": "8dde57d5410acadecb0b52a5506dd8d0"
     },
     {
         "path": "media",
@@ -223,6 +253,46 @@
         "path": "media/posts",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/negative-space-pen-notebook-notepad-paper-writing-aaron-burden-thumb-1-1062x704-1480810151.jpg",
+        "type": "file",
+        "md5": "5ecef9b5a68cf2872f536c44e7e996fc"
+    },
+    {
+        "path": "media/posts/3/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/responsive/negative-space-pen-notebook-notepad-paper-writing-aaron-burden-thumb-1-1062x704-1480810151-lg.webp",
+        "type": "file",
+        "md5": "ac37524b464d46dd85a18a57e03dc785"
+    },
+    {
+        "path": "/media/posts/3/responsive/negative-space-pen-notebook-notepad-paper-writing-aaron-burden-thumb-1-1062x704-1480810151-md.webp",
+        "type": "file",
+        "md5": "a2d44c6d28aa6830e4703621d5f2ee5b"
+    },
+    {
+        "path": "/media/posts/3/responsive/negative-space-pen-notebook-notepad-paper-writing-aaron-burden-thumb-1-1062x704-1480810151-sm.webp",
+        "type": "file",
+        "md5": "99ea0f953371287b735355b8fe40667f"
+    },
+    {
+        "path": "/media/posts/3/responsive/negative-space-pen-notebook-notepad-paper-writing-aaron-burden-thumb-1-1062x704-1480810151-xl.webp",
+        "type": "file",
+        "md5": "1ff8c9738c6e55f76e44ce4a2f22de3a"
+    },
+    {
+        "path": "/media/posts/3/responsive/negative-space-pen-notebook-notepad-paper-writing-aaron-burden-thumb-1-1062x704-1480810151-xs.webp",
+        "type": "file",
+        "md5": "878aa337064d17639af69b1efffdaf12"
     },
     {
         "path": "media/posts/4",
@@ -263,6 +333,416 @@
         "path": "/media/posts/4/responsive/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400-xs.webp",
         "type": "file",
         "md5": "c69290e5bcff7cb0ca1d7f5f80aae40d"
+    },
+    {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3.webp",
+        "type": "file",
+        "md5": "88c91e484cd6bbcd01111079516fd80c"
+    },
+    {
+        "path": "/media/posts/5/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626.webp",
+        "type": "file",
+        "md5": "88c91e484cd6bbcd01111079516fd80c"
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3-2xl.webp",
+        "type": "file",
+        "md5": "5097d68b4a7b91e56ba01e198b4a21ab"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3-lg.webp",
+        "type": "file",
+        "md5": "ee8ff5e8fca18c66a12bcba3617f3e9d"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3-md.webp",
+        "type": "file",
+        "md5": "9dbb06679caefbfa7927909f4fd1f602"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3-sm.webp",
+        "type": "file",
+        "md5": "05bdae14f62861ebd9e60d6874a75fb1"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3-xl.webp",
+        "type": "file",
+        "md5": "5097d68b4a7b91e56ba01e198b4a21ab"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-3-xs.webp",
+        "type": "file",
+        "md5": "889c76bb1a3d3fd7b9b010a256785339"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-lg.webp",
+        "type": "file",
+        "md5": "ee8ff5e8fca18c66a12bcba3617f3e9d"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-md.webp",
+        "type": "file",
+        "md5": "9dbb06679caefbfa7927909f4fd1f602"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-sm.webp",
+        "type": "file",
+        "md5": "05bdae14f62861ebd9e60d6874a75fb1"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-xl.webp",
+        "type": "file",
+        "md5": "5097d68b4a7b91e56ba01e198b4a21ab"
+    },
+    {
+        "path": "/media/posts/5/responsive/f31e06c2-c887-40d4-85de-61e3564d2892_1280x626-xs.webp",
+        "type": "file",
+        "md5": "889c76bb1a3d3fd7b9b010a256785339"
+    },
+    {
+        "path": "media/posts/6",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2.webp",
+        "type": "file",
+        "md5": "69c40564e5a8d092eda2979076e22f9c"
+    },
+    {
+        "path": "/media/posts/6/78306437-1fa2-4ba5-b255-38046fa84576_1280x712.webp",
+        "type": "file",
+        "md5": "9b3d3f14b67e3611e91f9b3b4597b100"
+    },
+    {
+        "path": "/media/posts/6/f451e16b-ef84-4387-882e-545fe86decd9_1280x646.webp",
+        "type": "file",
+        "md5": "22e159133e006487a5ec833a46e34b41"
+    },
+    {
+        "path": "media/posts/6/gallery",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/gallery/1171f5b8-129c-43e8-8e29-3f7a7c1a7f45_1280x625-2-thumbnail.webp",
+        "type": "file",
+        "md5": "5e454d6f0a47c56b18849ee26183649d"
+    },
+    {
+        "path": "/media/posts/6/gallery/1171f5b8-129c-43e8-8e29-3f7a7c1a7f45_1280x625-2.webp",
+        "type": "file",
+        "md5": "713777345cc42710592c8013876a988d"
+    },
+    {
+        "path": "/media/posts/6/gallery/1bc5b488-4f28-4067-8938-7674456f29cb_1280x646-2-thumbnail.webp",
+        "type": "file",
+        "md5": "da6d58e5607b59b483e8879074db558a"
+    },
+    {
+        "path": "/media/posts/6/gallery/1bc5b488-4f28-4067-8938-7674456f29cb_1280x646-2.webp",
+        "type": "file",
+        "md5": "fe2f5f5c9ea1a6f4febfb9a0a21b6f94"
+    },
+    {
+        "path": "/media/posts/6/gallery/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-thumbnail.webp",
+        "type": "file",
+        "md5": "bf86299189ba66e1c9536a867df08185"
+    },
+    {
+        "path": "/media/posts/6/gallery/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2.webp",
+        "type": "file",
+        "md5": "69c40564e5a8d092eda2979076e22f9c"
+    },
+    {
+        "path": "/media/posts/6/gallery/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-3-thumbnail.webp",
+        "type": "file",
+        "md5": "ef60945d39f77a9025c838e1d193be18"
+    },
+    {
+        "path": "/media/posts/6/gallery/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-3.webp",
+        "type": "file",
+        "md5": "9b3d3f14b67e3611e91f9b3b4597b100"
+    },
+    {
+        "path": "/media/posts/6/gallery/f451e16b-ef84-4387-882e-545fe86decd9_1280x646.webp",
+        "type": "file",
+        "md5": "22e159133e006487a5ec833a46e34b41"
+    },
+    {
+        "path": "media/posts/6/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/responsive/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-2xl.webp",
+        "type": "file",
+        "md5": "38d88cfc7795ce34bcf7beb3d7cd6d54"
+    },
+    {
+        "path": "/media/posts/6/responsive/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-lg.webp",
+        "type": "file",
+        "md5": "1e47e378f745198db3ee6027639ed38f"
+    },
+    {
+        "path": "/media/posts/6/responsive/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-md.webp",
+        "type": "file",
+        "md5": "c6ef2489f12cb95f599ded944333c7c9"
+    },
+    {
+        "path": "/media/posts/6/responsive/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-sm.webp",
+        "type": "file",
+        "md5": "04831cb1230738c99165741f26ff44b2"
+    },
+    {
+        "path": "/media/posts/6/responsive/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-xl.webp",
+        "type": "file",
+        "md5": "38d88cfc7795ce34bcf7beb3d7cd6d54"
+    },
+    {
+        "path": "/media/posts/6/responsive/71660a07-f9ea-428b-a9f0-e3ca226c3480_1280x653-2-xs.webp",
+        "type": "file",
+        "md5": "b22f809248927a4fc6724fda42343fb8"
+    },
+    {
+        "path": "/media/posts/6/responsive/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-lg.webp",
+        "type": "file",
+        "md5": "82dcdfb2680a02db0f1f87b68702269c"
+    },
+    {
+        "path": "/media/posts/6/responsive/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-md.webp",
+        "type": "file",
+        "md5": "856a2996431eba1f83b65bfe797222bd"
+    },
+    {
+        "path": "/media/posts/6/responsive/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-sm.webp",
+        "type": "file",
+        "md5": "20bd4e6e22641d2527e538174720b4a8"
+    },
+    {
+        "path": "/media/posts/6/responsive/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-xl.webp",
+        "type": "file",
+        "md5": "93a07e8bd4ae2587e410a39752fbaf75"
+    },
+    {
+        "path": "/media/posts/6/responsive/78306437-1fa2-4ba5-b255-38046fa84576_1280x712-xs.webp",
+        "type": "file",
+        "md5": "7e3cdc06d4f32887d88d22cb405ee016"
+    },
+    {
+        "path": "/media/posts/6/responsive/f451e16b-ef84-4387-882e-545fe86decd9_1280x646-2xl.webp",
+        "type": "file",
+        "md5": "77f7dabc6fb911b797757b2bcd1d532b"
+    },
+    {
+        "path": "/media/posts/6/responsive/f451e16b-ef84-4387-882e-545fe86decd9_1280x646-lg.webp",
+        "type": "file",
+        "md5": "99da170aebd366f1db279e823d8d996a"
+    },
+    {
+        "path": "/media/posts/6/responsive/f451e16b-ef84-4387-882e-545fe86decd9_1280x646-md.webp",
+        "type": "file",
+        "md5": "75eb132dbc6241c0f5187727b236e076"
+    },
+    {
+        "path": "/media/posts/6/responsive/f451e16b-ef84-4387-882e-545fe86decd9_1280x646-sm.webp",
+        "type": "file",
+        "md5": "2f50657175c53eca7dc7e566a6b82648"
+    },
+    {
+        "path": "/media/posts/6/responsive/f451e16b-ef84-4387-882e-545fe86decd9_1280x646-xl.webp",
+        "type": "file",
+        "md5": "77f7dabc6fb911b797757b2bcd1d532b"
+    },
+    {
+        "path": "/media/posts/6/responsive/f451e16b-ef84-4387-882e-545fe86decd9_1280x646-xs.webp",
+        "type": "file",
+        "md5": "f3d7a4132cfd5bbccf164e1143f06f57"
+    },
+    {
+        "path": "media/posts/7",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654.webp",
+        "type": "file",
+        "md5": "2c01ba6bd855e1a9c87e9b9706a59a5d"
+    },
+    {
+        "path": "/media/posts/7/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585.webp",
+        "type": "file",
+        "md5": "4b62c2bf2e9413d4420f5f553c3de0f4"
+    },
+    {
+        "path": "media/posts/7/gallery",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/gallery/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654-thumbnail.webp",
+        "type": "file",
+        "md5": "12b0427099d45332dc18c641a7edf8b7"
+    },
+    {
+        "path": "/media/posts/7/gallery/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654.webp",
+        "type": "file",
+        "md5": "2c01ba6bd855e1a9c87e9b9706a59a5d"
+    },
+    {
+        "path": "/media/posts/7/gallery/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585-thumbnail.webp",
+        "type": "file",
+        "md5": "e8b30d0576b07480accdb16c3c44bf50"
+    },
+    {
+        "path": "/media/posts/7/gallery/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585.webp",
+        "type": "file",
+        "md5": "4b62c2bf2e9413d4420f5f553c3de0f4"
+    },
+    {
+        "path": "media/posts/7/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/responsive/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654-lg.webp",
+        "type": "file",
+        "md5": "91f811c2a791ff164d23993e66bbbda3"
+    },
+    {
+        "path": "/media/posts/7/responsive/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654-md.webp",
+        "type": "file",
+        "md5": "7740189f5bea975a15a8e1747386902f"
+    },
+    {
+        "path": "/media/posts/7/responsive/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654-sm.webp",
+        "type": "file",
+        "md5": "4807b7417e9d1c7c63980935d0e8fbab"
+    },
+    {
+        "path": "/media/posts/7/responsive/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654-xl.webp",
+        "type": "file",
+        "md5": "b33874da485261275abe2bfa6049ae93"
+    },
+    {
+        "path": "/media/posts/7/responsive/51d51aa7-021a-467f-8e17-f4087e7aa14e_1280x654-xs.webp",
+        "type": "file",
+        "md5": "5bc480b725017dcb9eaff4fbb88fcf65"
+    },
+    {
+        "path": "/media/posts/7/responsive/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585-lg.webp",
+        "type": "file",
+        "md5": "e1f336e98f9967e2a3d47a38f00135c4"
+    },
+    {
+        "path": "/media/posts/7/responsive/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585-md.webp",
+        "type": "file",
+        "md5": "6f3274df9b60cb0326dfa17c4058217a"
+    },
+    {
+        "path": "/media/posts/7/responsive/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585-sm.webp",
+        "type": "file",
+        "md5": "a10841eb31b8fe22b0b0902f250ebe7a"
+    },
+    {
+        "path": "/media/posts/7/responsive/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585-xl.webp",
+        "type": "file",
+        "md5": "679d7d59ae6373d9a0d885824f282250"
+    },
+    {
+        "path": "/media/posts/7/responsive/52220063-c4a6-456a-b45a-ea2275346a1f_1280x585-xs.webp",
+        "type": "file",
+        "md5": "135eb87d9e20b086d9f9e218cf16b7f9"
+    },
+    {
+        "path": "media/posts/8",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/little-girl-walking-dark-mystery-forest-back-view-seemingly-lost-alone-shadowy-woods-generative-ai_213438-8324-1021869251.jpg",
+        "type": "file",
+        "md5": "fae93ed1850d01d2897ee7b2be19be5f"
+    },
+    {
+        "path": "media/posts/8/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/responsive/little-girl-walking-dark-mystery-forest-back-view-seemingly-lost-alone-shadowy-woods-generative-ai_213438-8324-1021869251-lg.webp",
+        "type": "file",
+        "md5": "88d32f29b3f9ddbdd69045eddba2bd85"
+    },
+    {
+        "path": "/media/posts/8/responsive/little-girl-walking-dark-mystery-forest-back-view-seemingly-lost-alone-shadowy-woods-generative-ai_213438-8324-1021869251-md.webp",
+        "type": "file",
+        "md5": "88d32f29b3f9ddbdd69045eddba2bd85"
+    },
+    {
+        "path": "/media/posts/8/responsive/little-girl-walking-dark-mystery-forest-back-view-seemingly-lost-alone-shadowy-woods-generative-ai_213438-8324-1021869251-sm.webp",
+        "type": "file",
+        "md5": "dd675b9496aa8243690b81773095cb8a"
+    },
+    {
+        "path": "/media/posts/8/responsive/little-girl-walking-dark-mystery-forest-back-view-seemingly-lost-alone-shadowy-woods-generative-ai_213438-8324-1021869251-xl.webp",
+        "type": "file",
+        "md5": "88d32f29b3f9ddbdd69045eddba2bd85"
+    },
+    {
+        "path": "/media/posts/8/responsive/little-girl-walking-dark-mystery-forest-back-view-seemingly-lost-alone-shadowy-woods-generative-ai_213438-8324-1021869251-xs.webp",
+        "type": "file",
+        "md5": "9a0806bd8ebf877930a04f2e2355b1c2"
+    },
+    {
+        "path": "media/posts/9",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/9/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/wp14255783-3617288010-lg.webp",
+        "type": "file",
+        "md5": "7c75f5f84402a1b9adeea169f0a3948b"
+    },
+    {
+        "path": "/media/posts/9/responsive/wp14255783-3617288010-md.webp",
+        "type": "file",
+        "md5": "0706c59748e1505150deb40c27a4487b"
+    },
+    {
+        "path": "/media/posts/9/responsive/wp14255783-3617288010-sm.webp",
+        "type": "file",
+        "md5": "03b2dd77079e64f94abf94308b95556d"
+    },
+    {
+        "path": "/media/posts/9/responsive/wp14255783-3617288010-xl.webp",
+        "type": "file",
+        "md5": "b853c4c109986b7ddfdf725233204bf2"
+    },
+    {
+        "path": "/media/posts/9/responsive/wp14255783-3617288010-xs.webp",
+        "type": "file",
+        "md5": "42544798d387ecbaee7b8ec9a1bd9016"
+    },
+    {
+        "path": "/media/posts/9/wp14255783-3617288010.jpg",
+        "type": "file",
+        "md5": "1bca00845ed8d6c57b9312afc2bbdd1e"
     },
     {
         "path": "media/website",
@@ -350,6 +830,21 @@
         "md5": "9b680c1b89c4247d2b083e332efbaa7d"
     },
     {
+        "path": "page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/page/2/index.html",
+        "type": "file",
+        "md5": "17c8b07b2a0017d2673d672b94de6272"
+    },
+    {
         "path": "robots.txt",
         "type": "file",
         "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
@@ -367,6 +862,16 @@
     {
         "path": "test-2.html",
         "type": "file",
-        "md5": "cd185ebb0da662eb72811b6d3bb12f2f"
+        "md5": "b6bcffcae2af8d221a5e0a8e63f62b1b"
+    },
+    {
+        "path": "the-story-of-a-girl.html",
+        "type": "file",
+        "md5": "80043a7332d26a4d66e5d3fd558f57cc"
+    },
+    {
+        "path": "to-the-girl-they-forgot-to-understand.html",
+        "type": "file",
+        "md5": "4ba5d4d38b1bcac1da8a8dbd03637b15"
     }
 ]

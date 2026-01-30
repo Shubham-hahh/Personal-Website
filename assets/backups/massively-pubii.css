@@ -78,3 +78,7 @@
     box-shadow: inset 0 0 0 2px #FFF0F5;
     color: #FFF0F5;
 }
+/* Block Quote Border Left Color */
+blockquote {
+  border-left-color: #000000;
+}

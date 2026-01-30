@@ -1,0 +1,80 @@
+/* =========================================================
+   UNIVERSAL PINK THEME OVERRIDES
+   Copy this into Publii > Theme Settings > Custom CSS
+   ========================================================= */
+
+/* --- 1. UI ELEMENTS (Navigation & Mobile Menu) --- */
+/* Color: #F8E1E7 (Main Theme Pink) */
+
+/* Active Navigation Tab (Desktop) */
+#nav ul.links li.active {
+    background-color: #F8E1E7;
+}
+
+/* Text color inside the active tab (ensures readability) */
+#nav ul.links li.active a {
+    color: #212931; 
+}
+
+/* Mobile Menu Toggle Button ("MENU" box) */
+#navPanelToggle.alt {
+    background-color: #F8E1E7;
+    box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
+    color: #212931;
+}
+
+/* Mobile Menu Toggle Button Hover State */
+#navPanelToggle.alt:hover {
+    background-color: #F8E1E7;
+}
+
+/* Mobile Slide-out Menu Panel Background */
+#navPanel {
+    background-color: #F8E1E7;
+    color: #212931;
+}
+
+/* Mobile Menu Links Borders */
+#navPanel .links li {
+    border-top-color: rgba(33, 41, 49, 0.15);
+}
+
+
+/* --- 2. HERO / INTRO TEXT --- */
+/* Color: #FFF0F5 (LavenderBlush - Light Whitish Pink) */
+
+/* Main Hero Text Color */
+#intro {
+    color: #FFF0F5;
+}
+
+/* Hero Headings (Welcome to Hazelbite) */
+#intro h1, 
+#intro h2, 
+#intro h3, 
+#intro h4, 
+#intro h5, 
+#intro h6 {
+    color: #FFF0F5;
+}
+
+/* Hero Paragraphs */
+#intro p {
+    color: #FFF0F5;
+}
+
+/* Hero Links (if any) */
+#intro a {
+    color: #FFF0F5;
+    border-bottom-color: rgba(255, 240, 245, 0.5);
+}
+
+/* Hero Buttons (Outline style) */
+#intro input[type="submit"],
+#intro input[type="reset"],
+#intro input[type="button"],
+#intro button,
+#intro .button {
+    box-shadow: inset 0 0 0 2px #FFF0F5;
+    color: #FFF0F5;
+}

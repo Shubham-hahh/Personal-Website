@@ -2,27 +2,27 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "e472b9a60206b045c2dafab370dab556"
+        "md5": "0d4b3a1d7bebbbe7a7f462b51caf2461"
     },
     {
         "path": "a-rule-breakers-manifesto-born-in-bengal-raised-by-resistance.html",
         "type": "file",
-        "md5": "38ad7271673be8c9e54bac6ddd347091"
+        "md5": "ccbb423b841eb764ff04f01ad102dd22"
     },
     {
         "path": "akera-devlog-1-when-one-world-fades-another-begins.html",
         "type": "file",
-        "md5": "69601617daac402f96d8fe8d44597494"
+        "md5": "4f0a4b94f476b87e35182487a491872e"
     },
     {
         "path": "akera-devlog-2-from-janky-skies-to-soothing-souls.html",
         "type": "file",
-        "md5": "68415deea83e10de988d42a904a4add8"
+        "md5": "f8383bef33b7821e7bd30c1d1afa48dc"
     },
     {
         "path": "akera-devlog-3-making-the-world-breathe.html",
         "type": "file",
-        "md5": "559e378ce548c4d5844ef9990d9976ad"
+        "md5": "4bedfd6b1d5a90d1dcd77746c9b2f4cb"
     },
     {
         "path": "assets",
@@ -47,7 +47,7 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "9e122fc5e2b4c9aed89108947a51f42d"
+        "md5": "687447852920f85bc5532b96e197b002"
     },
     {
         "path": "/assets/css/noscript.css",
@@ -57,7 +57,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "58ad9d0e3f02cceb0b5de04ae597392e"
+        "md5": "b3e045ac660a2e276e7a3e9472dd0a0d"
     },
     {
         "path": "assets/dynamic",
@@ -207,7 +207,7 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "d3e94d0bdf44b05ffc24022abe1dda83"
+        "md5": "635a7a4f29f35efddaf3d64090222259"
     },
     {
         "path": "authors/crossie/page",
@@ -222,17 +222,17 @@
     {
         "path": "/authors/crossie/page/2/index.html",
         "type": "file",
-        "md5": "7ac5d508c31c7748e36acda4813b0ea9"
+        "md5": "1e9d7c249e838ea273c09e14f60c41a1"
     },
     {
         "path": "god-didnt-create-caste-we-did.html",
         "type": "file",
-        "md5": "24b8835031ad0b17c3b378ef7492cd5b"
+        "md5": "cdd8c641713e01b78783c9cc585cc5f5"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "b444790eeba3d69022c1ebefef5a401a"
+        "md5": "dfeb98d57f2b60082c9562b3b64f899a"
     },
     {
         "path": "media",
@@ -298,6 +298,86 @@
         "path": "/media/posts/10/responsive/Controversial-Indian-Caste-System-3349152438-xs.webp",
         "type": "file",
         "md5": "8a7dc0ca455e7091af4d5bb7443d8129"
+    },
+    {
+        "path": "media/posts/11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/Academic-Stress-805069085.jpg",
+        "type": "file",
+        "md5": "501faf50a735a8dbf0045600c47c59b1"
+    },
+    {
+        "path": "media/posts/11/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/responsive/Academic-Stress-805069085-lg.webp",
+        "type": "file",
+        "md5": "d5c497dc82619c6bf0f203ad7ea67e25"
+    },
+    {
+        "path": "/media/posts/11/responsive/Academic-Stress-805069085-md.webp",
+        "type": "file",
+        "md5": "7fa54eae24742f3fed53d7a7eee0d931"
+    },
+    {
+        "path": "/media/posts/11/responsive/Academic-Stress-805069085-sm.webp",
+        "type": "file",
+        "md5": "69533970a6a8f489e78a94fe0d249067"
+    },
+    {
+        "path": "/media/posts/11/responsive/Academic-Stress-805069085-xl.webp",
+        "type": "file",
+        "md5": "d5c497dc82619c6bf0f203ad7ea67e25"
+    },
+    {
+        "path": "/media/posts/11/responsive/Academic-Stress-805069085-xs.webp",
+        "type": "file",
+        "md5": "fafe233035e2d3338bb81ec293158d00"
+    },
+    {
+        "path": "media/posts/12",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/LGBTQ-1024x683-1443665897.jpg",
+        "type": "file",
+        "md5": "084a724bde3e8675c76eb52a71641261"
+    },
+    {
+        "path": "media/posts/12/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/responsive/LGBTQ-1024x683-1443665897-lg.webp",
+        "type": "file",
+        "md5": "3d8e1c16dc3ed492f10cf88140df3d30"
+    },
+    {
+        "path": "/media/posts/12/responsive/LGBTQ-1024x683-1443665897-md.webp",
+        "type": "file",
+        "md5": "5fd997983a6415eea84861498dd46dbc"
+    },
+    {
+        "path": "/media/posts/12/responsive/LGBTQ-1024x683-1443665897-sm.webp",
+        "type": "file",
+        "md5": "3b830ae1a1786fd3f2c2cf5ff411bfa8"
+    },
+    {
+        "path": "/media/posts/12/responsive/LGBTQ-1024x683-1443665897-xl.webp",
+        "type": "file",
+        "md5": "3d8e1c16dc3ed492f10cf88140df3d30"
+    },
+    {
+        "path": "/media/posts/12/responsive/LGBTQ-1024x683-1443665897-xs.webp",
+        "type": "file",
+        "md5": "29b3a603c9657bfdc8fcd49a3363cc10"
     },
     {
         "path": "media/posts/3",
@@ -887,7 +967,12 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "e226faf3dfe75dccce4456e67567e2f1"
+        "md5": "068171eeaa50b88e1738f2f2ab2f2cc2"
+    },
+    {
+        "path": "rethinking-academic-pressure-why-mental-health-needs-a-seat-at-the-desk.html",
+        "type": "file",
+        "md5": "fef5f7dced60b35daf1380b8578f502a"
     },
     {
         "path": "robots.txt",
@@ -902,21 +987,26 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "21eb25ae7e9da917453ccba41ff519fd"
+        "md5": "5a19842cc5dd6d2f47f88c4882094fe2"
     },
     {
         "path": "test-2.html",
         "type": "file",
-        "md5": "b6bcffcae2af8d221a5e0a8e63f62b1b"
+        "md5": "fcc185f9323d7e56d0126cb434f4944b"
     },
     {
         "path": "the-story-of-a-girl.html",
         "type": "file",
-        "md5": "80043a7332d26a4d66e5d3fd558f57cc"
+        "md5": "1fa17cc45f3cf2e9023b8555ad772717"
     },
     {
         "path": "to-the-girl-they-forgot-to-understand.html",
         "type": "file",
-        "md5": "eddc68874c0df1dc6bd767f9350074eb"
+        "md5": "33f7ed91921991abe746385fecc72220"
+    },
+    {
+        "path": "we-exist-we-hurt-we-deserve-better.html",
+        "type": "file",
+        "md5": "a45ae1eb0214ab7a23adc0aa38ae80cd"
     }
 ]

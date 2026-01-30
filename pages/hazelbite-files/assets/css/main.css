@@ -1114,7 +1114,7 @@ header.major > .date:after {
 }
 
 header.major .date:before, header.major .date:after {
-  border-top-color: #eeeeee;
+  border-top-color: #dab7b7;
 }
 
 /* Table */
@@ -1186,7 +1186,7 @@ table.alt tfoot {
 }
 
 table tbody tr {
-  border-color: #eeeeee;
+  border-color: #393232;
 }
 table tbody tr:nth-child(2n+1) {
   background-color: rgba(220, 220, 220, 0.25);
@@ -1195,13 +1195,13 @@ table th {
   color: #212931;
 }
 table thead {
-  border-bottom-color: #eeeeee;
+  border-bottom-color: #000000;
 }
 table tfoot {
-  border-top-color: #eeeeee;
+  border-top-color: #000000;
 }
 table.alt tbody tr td {
-  border-color: #eeeeee;
+  border-color: #000000;
 }
 
 /* Pagination */
@@ -1283,7 +1283,7 @@ table.alt tbody tr td {
 }
 
 .pagination a, .pagination span {
-  border-color: #eeeeee;
+  border-color: #d7a7a7;
 }
 .pagination a {
   color: #212931 !important;
@@ -1297,10 +1297,10 @@ table.alt tbody tr td {
   border-left-color: var(--color);
 }
 .pagination a.active {
-  background-color: #eeeeee;
+  background-color: #e2baba;
 }
 .pagination span {
-  color: #eeeeee;
+  color: #eac5c5;
 }
 
 /* Wrapper */
@@ -1815,7 +1815,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: 50%;
 }
 #main > .posts > article {
-  border-color: #eeeeee;
+  border-color: #e9c0c0;
   border-left-width: 2px;
   border-style: solid;
   border-top-width: 2px;

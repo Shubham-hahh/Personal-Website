@@ -7,7 +7,7 @@
     {
         "path": "a-rule-breakers-manifesto-born-in-bengal-raised-by-resistance.html",
         "type": "file",
-        "md5": "0e80a575b063c7cd46cb698b1faf25cf"
+        "md5": "6a31a5039202769b35b27232c5e9fd9f"
     },
     {
         "path": "akera-dev-blog-5-breathing-through-the-rain.html",
@@ -22,7 +22,7 @@
     {
         "path": "akera-devlog-2-from-janky-skies-to-soothing-souls.html",
         "type": "file",
-        "md5": "a8d85144c045d86cdccef487e46b0c4d"
+        "md5": "95375a6aca525e9ee1752d0ec8f80d7c"
     },
     {
         "path": "akera-devlog-3-making-the-world-breathe.html",
@@ -33,6 +33,11 @@
         "path": "akera-devlog-4-rare-moments-slow-progress.html",
         "type": "file",
         "md5": "9342d0700ffc37e1cfa30ddbf55821da"
+    },
+    {
+        "path": "are-video-games-art-a-digital-gremlins-take.html",
+        "type": "file",
+        "md5": "311db585ebeba8482f58b64bd9a369ff"
     },
     {
         "path": "assets",
@@ -217,7 +222,7 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "248a5605fe1b0d7a42e6e054f6d514f0"
+        "md5": "c60ea7b51f5b1d31019c4b92506b3b0e"
     },
     {
         "path": "authors/crossie/page",
@@ -232,7 +237,7 @@
     {
         "path": "/authors/crossie/page/2/index.html",
         "type": "file",
-        "md5": "cdc0b5a7d9e40bf99fc161b0bb189623"
+        "md5": "94ff3538622cc29f62a10c516cb25ecf"
     },
     {
         "path": "authors/crossie/page/3",
@@ -242,7 +247,7 @@
     {
         "path": "/authors/crossie/page/3/index.html",
         "type": "file",
-        "md5": "8376920f5aea6ba8220d15f82e84e5ae"
+        "md5": "5d87efcd57016eb9c301e1ce85fde4b1"
     },
     {
         "path": "god-didnt-create-caste-we-did.html",
@@ -250,9 +255,19 @@
         "md5": "cdd8c641713e01b78783c9cc585cc5f5"
     },
     {
+        "path": "happy-early-independence-day-india.html",
+        "type": "file",
+        "md5": "7adb563dfaa6aba899fafc429421b076"
+    },
+    {
+        "path": "hazelbite-is-evolving-and-im-huappy-about-it.html",
+        "type": "file",
+        "md5": "390368df72a144ddfd796d4ee0919c58"
+    },
+    {
         "path": "index.html",
         "type": "file",
-        "md5": "bd840590c8122e8d25deb29a1c348723"
+        "md5": "3dfe4dad13c3b654162067abc47cccef"
     },
     {
         "path": "media",
@@ -518,6 +533,206 @@
         "path": "/media/posts/15/responsive/65735bdba92977e355ccf522_RoteLearningvsMeaningfulLearning-1966968476-xs.webp",
         "type": "file",
         "md5": "159f5506baeb6125f6f67e32dd21f369"
+    },
+    {
+        "path": "media/posts/16",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/16/c737e98c-3733-4c97-bfa3-1ea9e2dc9e25_739x415.webp",
+        "type": "file",
+        "md5": "c5f321f4c475d394b6ec38d93863528b"
+    },
+    {
+        "path": "media/posts/16/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/16/responsive/c737e98c-3733-4c97-bfa3-1ea9e2dc9e25_739x415-lg.webp",
+        "type": "file",
+        "md5": "745790a09d33f054a272f1a6f7a410ad"
+    },
+    {
+        "path": "/media/posts/16/responsive/c737e98c-3733-4c97-bfa3-1ea9e2dc9e25_739x415-md.webp",
+        "type": "file",
+        "md5": "745790a09d33f054a272f1a6f7a410ad"
+    },
+    {
+        "path": "/media/posts/16/responsive/c737e98c-3733-4c97-bfa3-1ea9e2dc9e25_739x415-sm.webp",
+        "type": "file",
+        "md5": "9e03c1dda1c569c1002c3178a4d47759"
+    },
+    {
+        "path": "/media/posts/16/responsive/c737e98c-3733-4c97-bfa3-1ea9e2dc9e25_739x415-xl.webp",
+        "type": "file",
+        "md5": "745790a09d33f054a272f1a6f7a410ad"
+    },
+    {
+        "path": "/media/posts/16/responsive/c737e98c-3733-4c97-bfa3-1ea9e2dc9e25_739x415-xs.webp",
+        "type": "file",
+        "md5": "4f9c0378b86bdc9c7bf06a20b69141d6"
+    },
+    {
+        "path": "media/posts/17",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/17/685c09e4-b6d2-4f58-8f54-0dcd01062b8b_751x408.webp",
+        "type": "file",
+        "md5": "d92f21b228c084d76ef384d9b3644d14"
+    },
+    {
+        "path": "media/posts/17/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/17/responsive/685c09e4-b6d2-4f58-8f54-0dcd01062b8b_751x408-lg.webp",
+        "type": "file",
+        "md5": "aa5f8b975861adb145b03ec96c4b55b7"
+    },
+    {
+        "path": "/media/posts/17/responsive/685c09e4-b6d2-4f58-8f54-0dcd01062b8b_751x408-md.webp",
+        "type": "file",
+        "md5": "aa5f8b975861adb145b03ec96c4b55b7"
+    },
+    {
+        "path": "/media/posts/17/responsive/685c09e4-b6d2-4f58-8f54-0dcd01062b8b_751x408-sm.webp",
+        "type": "file",
+        "md5": "1b6370bee8c75f03162aa3d78f9678e0"
+    },
+    {
+        "path": "/media/posts/17/responsive/685c09e4-b6d2-4f58-8f54-0dcd01062b8b_751x408-xl.webp",
+        "type": "file",
+        "md5": "aa5f8b975861adb145b03ec96c4b55b7"
+    },
+    {
+        "path": "/media/posts/17/responsive/685c09e4-b6d2-4f58-8f54-0dcd01062b8b_751x408-xs.webp",
+        "type": "file",
+        "md5": "8b6b3a9609346fedac3a5a93833d62d6"
+    },
+    {
+        "path": "media/posts/18",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/18/3ddd3c6c-227c-495b-9d58-7f8c64866efe_2560x1440.webp",
+        "type": "file",
+        "md5": "796a09be121b6a7bc6133e67ccd9fc09"
+    },
+    {
+        "path": "media/posts/18/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/18/responsive/3ddd3c6c-227c-495b-9d58-7f8c64866efe_2560x1440-lg.webp",
+        "type": "file",
+        "md5": "e5b15812051210c36578cd80050fdf44"
+    },
+    {
+        "path": "/media/posts/18/responsive/3ddd3c6c-227c-495b-9d58-7f8c64866efe_2560x1440-md.webp",
+        "type": "file",
+        "md5": "253ba9cbf675462054ce4d361e45e296"
+    },
+    {
+        "path": "/media/posts/18/responsive/3ddd3c6c-227c-495b-9d58-7f8c64866efe_2560x1440-sm.webp",
+        "type": "file",
+        "md5": "2b792206488223c3c8998efe40da085e"
+    },
+    {
+        "path": "/media/posts/18/responsive/3ddd3c6c-227c-495b-9d58-7f8c64866efe_2560x1440-xl.webp",
+        "type": "file",
+        "md5": "e5b15812051210c36578cd80050fdf44"
+    },
+    {
+        "path": "/media/posts/18/responsive/3ddd3c6c-227c-495b-9d58-7f8c64866efe_2560x1440-xs.webp",
+        "type": "file",
+        "md5": "63ffc94711363357779666c62aa0e80b"
+    },
+    {
+        "path": "media/posts/19",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/19/b1a3e425-8b8a-4a86-b4d6-af2a11649d26_251x201.webp",
+        "type": "file",
+        "md5": "960e2924b284a144ec331002d61267c5"
+    },
+    {
+        "path": "media/posts/19/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/19/responsive/b1a3e425-8b8a-4a86-b4d6-af2a11649d26_251x201-lg.webp",
+        "type": "file",
+        "md5": "2f059157f63dd114ed7b473b4c198dda"
+    },
+    {
+        "path": "/media/posts/19/responsive/b1a3e425-8b8a-4a86-b4d6-af2a11649d26_251x201-md.webp",
+        "type": "file",
+        "md5": "2f059157f63dd114ed7b473b4c198dda"
+    },
+    {
+        "path": "/media/posts/19/responsive/b1a3e425-8b8a-4a86-b4d6-af2a11649d26_251x201-sm.webp",
+        "type": "file",
+        "md5": "2f059157f63dd114ed7b473b4c198dda"
+    },
+    {
+        "path": "/media/posts/19/responsive/b1a3e425-8b8a-4a86-b4d6-af2a11649d26_251x201-xl.webp",
+        "type": "file",
+        "md5": "2f059157f63dd114ed7b473b4c198dda"
+    },
+    {
+        "path": "/media/posts/19/responsive/b1a3e425-8b8a-4a86-b4d6-af2a11649d26_251x201-xs.webp",
+        "type": "file",
+        "md5": "2f059157f63dd114ed7b473b4c198dda"
+    },
+    {
+        "path": "media/posts/20",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/20/a482614a-e33f-4eee-a870-610e97159156_678x452.webp",
+        "type": "file",
+        "md5": "d0872479f75baa63a2da860397556223"
+    },
+    {
+        "path": "media/posts/20/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/20/responsive/a482614a-e33f-4eee-a870-610e97159156_678x452-lg.webp",
+        "type": "file",
+        "md5": "81345951c2c5dc2e369f1c73f402b004"
+    },
+    {
+        "path": "/media/posts/20/responsive/a482614a-e33f-4eee-a870-610e97159156_678x452-md.webp",
+        "type": "file",
+        "md5": "81345951c2c5dc2e369f1c73f402b004"
+    },
+    {
+        "path": "/media/posts/20/responsive/a482614a-e33f-4eee-a870-610e97159156_678x452-sm.webp",
+        "type": "file",
+        "md5": "838875d27f132ea9e88f6b382ce41b74"
+    },
+    {
+        "path": "/media/posts/20/responsive/a482614a-e33f-4eee-a870-610e97159156_678x452-xl.webp",
+        "type": "file",
+        "md5": "81345951c2c5dc2e369f1c73f402b004"
+    },
+    {
+        "path": "/media/posts/20/responsive/a482614a-e33f-4eee-a870-610e97159156_678x452-xs.webp",
+        "type": "file",
+        "md5": "23309f72268f05aa9734612aa6d80c85"
     },
     {
         "path": "media/posts/3",
@@ -1107,7 +1322,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "1a734f58676b3a71e3cec74799ed4022"
+        "md5": "484b28b39b64da3f30bfccdc6f5cab3b"
     },
     {
         "path": "page/3",
@@ -1117,7 +1332,7 @@
     {
         "path": "/page/3/index.html",
         "type": "file",
-        "md5": "35c1f2d7ed3a80640207b51eaa3e387b"
+        "md5": "a66d67cacbcfe4389def937edf819635"
     },
     {
         "path": "rethinking-academic-pressure-why-mental-health-needs-a-seat-at-the-desk.html",
@@ -1145,9 +1360,19 @@
         "md5": "fcc185f9323d7e56d0126cb434f4944b"
     },
     {
+        "path": "the-power-of-environment-a-reflection-from-the-heartfulness-essay-competition.html",
+        "type": "file",
+        "md5": "8881ee6f41fad5dfe42b246b9358fb53"
+    },
+    {
         "path": "the-rule-of-creativitytm-where-rote-learning-should-just-chill-out~-greaterless.html",
         "type": "file",
         "md5": "d7a9491e90816cd3381b91091d68b9f9"
+    },
+    {
+        "path": "the-specivist-manifesto-a-new-name-for-our-spectrum.html",
+        "type": "file",
+        "md5": "ac572c379a86295d22b5e7a7763ed928"
     },
     {
         "path": "the-story-of-a-girl.html",

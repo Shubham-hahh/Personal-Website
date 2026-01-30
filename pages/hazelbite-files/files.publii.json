@@ -17,7 +17,7 @@
     {
         "path": "akera-devlog-1-when-one-world-fades-another-begins.html",
         "type": "file",
-        "md5": "91830e7a851232b54b427cd15c44ad3f"
+        "md5": "6a0d8afa7eb26bb5e92f5ac1794527c4"
     },
     {
         "path": "akera-devlog-2-from-janky-skies-to-soothing-souls.html",
@@ -222,7 +222,7 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "75a6157f8613201b289b657ce6ccd142"
+        "md5": "50481eda842db81f0d6c0777f3589ced"
     },
     {
         "path": "authors/crossie/page",
@@ -237,7 +237,7 @@
     {
         "path": "/authors/crossie/page/2/index.html",
         "type": "file",
-        "md5": "d63d2723a84d97feebcf080011c48588"
+        "md5": "3d19a8ec02988deb4a6ad23024f5673f"
     },
     {
         "path": "authors/crossie/page/3",
@@ -247,7 +247,7 @@
     {
         "path": "/authors/crossie/page/3/index.html",
         "type": "file",
-        "md5": "afb3abe6a21b715c31feebbe5d81e36f"
+        "md5": "455024a3e4de3f47e968b0d7372dfa55"
     },
     {
         "path": "authors/crossie/page/4",
@@ -257,7 +257,17 @@
     {
         "path": "/authors/crossie/page/4/index.html",
         "type": "file",
-        "md5": "af8c0dec8309e084e02459f5d0aa5966"
+        "md5": "a9ab4c7b37350ca7d5c324bad08a5751"
+    },
+    {
+        "path": "between-smoothness-and-splinters.html",
+        "type": "file",
+        "md5": "5fe402ab5111eeb3d54c565afc377a92"
+    },
+    {
+        "path": "consciousness-as-rebellion.html",
+        "type": "file",
+        "md5": "d7bf52b5c2867f10db3917c1d635b98b"
     },
     {
         "path": "crafting-my-path-a-trans-girls-guide-to-safer-transition.html",
@@ -282,7 +292,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1ed1a607c09fed4a9fac4d64b5210d93"
+        "md5": "da064fe410194e9ccb61ddc8cbec9f8b"
     },
     {
         "path": "inside-the-bubble-a-trans-girls-day-in-a-toxic-classroom.html",
@@ -875,6 +885,126 @@
         "md5": "9afb16b2f362b9d4242d1462a5dbb62e"
     },
     {
+        "path": "media/posts/24",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/24/27d5f77b-ce21-4136-90c1-ae6056541c50_1024x683.webp",
+        "type": "file",
+        "md5": "14b2b8abf63ea57e33a937c48d7bd643"
+    },
+    {
+        "path": "media/posts/24/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/24/responsive/27d5f77b-ce21-4136-90c1-ae6056541c50_1024x683-lg.webp",
+        "type": "file",
+        "md5": "61bcd8a87f78d1f40e4d8527bcf12d0d"
+    },
+    {
+        "path": "/media/posts/24/responsive/27d5f77b-ce21-4136-90c1-ae6056541c50_1024x683-md.webp",
+        "type": "file",
+        "md5": "8d7f039d12531126070ed53ffd551135"
+    },
+    {
+        "path": "/media/posts/24/responsive/27d5f77b-ce21-4136-90c1-ae6056541c50_1024x683-sm.webp",
+        "type": "file",
+        "md5": "8c62d219923f73b01fe9b8ad0abf01dd"
+    },
+    {
+        "path": "/media/posts/24/responsive/27d5f77b-ce21-4136-90c1-ae6056541c50_1024x683-xl.webp",
+        "type": "file",
+        "md5": "61bcd8a87f78d1f40e4d8527bcf12d0d"
+    },
+    {
+        "path": "/media/posts/24/responsive/27d5f77b-ce21-4136-90c1-ae6056541c50_1024x683-xs.webp",
+        "type": "file",
+        "md5": "9b26455453f555cd2f60d2ba5b4a078b"
+    },
+    {
+        "path": "media/posts/25",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/25/3de1f98a-fc85-4a63-acf6-a25fca7dfb91_1600x960.webp",
+        "type": "file",
+        "md5": "f1076bb36b8da402feb060be5460e3a8"
+    },
+    {
+        "path": "media/posts/25/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/25/responsive/3de1f98a-fc85-4a63-acf6-a25fca7dfb91_1600x960-lg.webp",
+        "type": "file",
+        "md5": "e63deffcbb27a102ea99e3b522741d57"
+    },
+    {
+        "path": "/media/posts/25/responsive/3de1f98a-fc85-4a63-acf6-a25fca7dfb91_1600x960-md.webp",
+        "type": "file",
+        "md5": "a5f0584a6cbe2db12b5ac315ed729895"
+    },
+    {
+        "path": "/media/posts/25/responsive/3de1f98a-fc85-4a63-acf6-a25fca7dfb91_1600x960-sm.webp",
+        "type": "file",
+        "md5": "09d7d94f70cd7eebfb71db663362f21e"
+    },
+    {
+        "path": "/media/posts/25/responsive/3de1f98a-fc85-4a63-acf6-a25fca7dfb91_1600x960-xl.webp",
+        "type": "file",
+        "md5": "e63deffcbb27a102ea99e3b522741d57"
+    },
+    {
+        "path": "/media/posts/25/responsive/3de1f98a-fc85-4a63-acf6-a25fca7dfb91_1600x960-xs.webp",
+        "type": "file",
+        "md5": "ccac24ed0ce5d240e1639a67f9a97f8a"
+    },
+    {
+        "path": "media/posts/26",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/26/75dddb98-6433-4549-9cd7-fd2e456899da_1280x1024.webp",
+        "type": "file",
+        "md5": "6e6fa9352ad2868a5bdf8dad0f3a51a9"
+    },
+    {
+        "path": "media/posts/26/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/26/responsive/75dddb98-6433-4549-9cd7-fd2e456899da_1280x1024-lg.webp",
+        "type": "file",
+        "md5": "7ea69cf51190cd8c65f7ba121aac9209"
+    },
+    {
+        "path": "/media/posts/26/responsive/75dddb98-6433-4549-9cd7-fd2e456899da_1280x1024-md.webp",
+        "type": "file",
+        "md5": "3fd7e9ca550622ff4fdf98d9ae12b6c3"
+    },
+    {
+        "path": "/media/posts/26/responsive/75dddb98-6433-4549-9cd7-fd2e456899da_1280x1024-sm.webp",
+        "type": "file",
+        "md5": "bb6d76ffefc4cc4bf748676e5920a798"
+    },
+    {
+        "path": "/media/posts/26/responsive/75dddb98-6433-4549-9cd7-fd2e456899da_1280x1024-xl.webp",
+        "type": "file",
+        "md5": "7ea69cf51190cd8c65f7ba121aac9209"
+    },
+    {
+        "path": "/media/posts/26/responsive/75dddb98-6433-4549-9cd7-fd2e456899da_1280x1024-xs.webp",
+        "type": "file",
+        "md5": "0e72c52d5ff9b8d0ee64f6e0a9346768"
+    },
+    {
         "path": "media/posts/3",
         "type": "directory",
         "md5": false
@@ -1462,7 +1592,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "c2dfddd1643df8a56583382533d77361"
+        "md5": "4ff03031380e085a7e363b5683de17dc"
     },
     {
         "path": "page/3",
@@ -1472,7 +1602,7 @@
     {
         "path": "/page/3/index.html",
         "type": "file",
-        "md5": "973ff4150edf398ecdbcedcc2666637d"
+        "md5": "8826ae6b5291b19e6d7e7da1ec001cfc"
     },
     {
         "path": "page/4",
@@ -1482,7 +1612,7 @@
     {
         "path": "/page/4/index.html",
         "type": "file",
-        "md5": "a1acbf5dd50707d768e3a7641857d54e"
+        "md5": "fcb5dd147e5a0893306de0d183bca770"
     },
     {
         "path": "rethinking-academic-pressure-why-mental-health-needs-a-seat-at-the-desk.html",
@@ -1497,7 +1627,7 @@
     {
         "path": "scientific-spiritualism-the-balance-between-logic-and-hope.html",
         "type": "file",
-        "md5": "91281ba3cd8a69d2a92b3a6ce4979c9b"
+        "md5": "1744f7ceb46bee1bfc50c3f73f62abb3"
     },
     {
         "path": "tags",
@@ -1533,6 +1663,11 @@
         "path": "the-story-of-a-girl.html",
         "type": "file",
         "md5": "1fa17cc45f3cf2e9023b8555ad772717"
+    },
+    {
+        "path": "the-time-when-luck-worked-for-me-and-i-felt-euphoric.html",
+        "type": "file",
+        "md5": "cd4b2fd44e6498588b4864e7eeff07f9"
     },
     {
         "path": "to-the-girl-they-forgot-to-understand.html",

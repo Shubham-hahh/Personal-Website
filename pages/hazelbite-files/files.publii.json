@@ -5,6 +5,11 @@
         "md5": "444262313b9b42c1dd485351ff0d5abf"
     },
     {
+        "path": "a-rule-breakers-manifesto-born-in-bengal-raised-by-resistance.html",
+        "type": "file",
+        "md5": "b329c63ae35df89c1d192f9214fff951"
+    },
+    {
         "path": "assets",
         "type": "directory",
         "md5": false
@@ -187,12 +192,12 @@
     {
         "path": "/authors/crossie/index.html",
         "type": "file",
-        "md5": "576a59120adc6522ff05f3cc81c90a3e"
+        "md5": "63b6d73a3f115f45c46e49f160f9e948"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "ab192df898c3e86455b0198fd9749e42"
+        "md5": "fa72d85be163fa9231240480ac685d52"
     },
     {
         "path": "media",
@@ -213,6 +218,51 @@
         "path": "/media/files/Quintessential-Regular.woff2",
         "type": "file",
         "md5": "5cb3c281f39fccba0533c2e0f73dc37c"
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400.webp",
+        "type": "file",
+        "md5": "feb8304c792f448c5479a9af2e5a1cb7"
+    },
+    {
+        "path": "media/posts/4/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/responsive/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400-lg.webp",
+        "type": "file",
+        "md5": "1867aa0dc6db7078bd6041eb29cd1e05"
+    },
+    {
+        "path": "/media/posts/4/responsive/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400-md.webp",
+        "type": "file",
+        "md5": "1867aa0dc6db7078bd6041eb29cd1e05"
+    },
+    {
+        "path": "/media/posts/4/responsive/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400-sm.webp",
+        "type": "file",
+        "md5": "8fad8658930eaf9eabc5553e6e7c110e"
+    },
+    {
+        "path": "/media/posts/4/responsive/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400-xl.webp",
+        "type": "file",
+        "md5": "1867aa0dc6db7078bd6041eb29cd1e05"
+    },
+    {
+        "path": "/media/posts/4/responsive/076d4376-e2d2-4f80-8d63-d9916ec0b68f_600x400-xs.webp",
+        "type": "file",
+        "md5": "c69290e5bcff7cb0ca1d7f5f80aae40d"
     },
     {
         "path": "media/website",

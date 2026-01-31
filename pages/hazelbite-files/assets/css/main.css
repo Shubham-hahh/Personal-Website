@@ -277,12 +277,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 blockquote {
-  border-left-color: #000000;
+  border-left-color: #43003c;
 }
 
 code {
   background: rgba(220, 220, 220, 0.25);
-  border-color: #eeeeee;
+  border-color: #43003c;
 }
 
 hr {
@@ -1186,7 +1186,7 @@ table.alt tfoot {
 }
 
 table tbody tr {
-  border-color: #393232;
+  border-color: #43003c;
 }
 table tbody tr:nth-child(2n+1) {
   background-color: rgba(220, 220, 220, 0.25);
@@ -1195,13 +1195,13 @@ table th {
   color: #212931;
 }
 table thead {
-  border-bottom-color: #000000;
+  border-bottom-color: #43003c;
 }
 table tfoot {
-  border-top-color: #000000;
+  border-top-color: #43003c;
 }
 table.alt tbody tr td {
-  border-color: #000000;
+  border-color: #43003c;
 }
 
 /* Pagination */
@@ -1297,10 +1297,10 @@ table.alt tbody tr td {
   border-left-color: var(--color);
 }
 .pagination a.active {
-  background-color: #e2baba;
+  background-color:  #FFF0F5;
 }
 .pagination span {
-  color: #eac5c5;
+  color:  #FFF0F5;
 }
 
 /* Wrapper */
@@ -1394,7 +1394,7 @@ body.is-preload #wrapper.fade-in:before {
   color: var(--color) !important;
 }
 #intro strong, #intro b {
-  color: #ffffff;
+  color:  #FFF0F5;
 }
 #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
   color: #FFF0F5;
